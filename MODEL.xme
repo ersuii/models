@@ -1,0 +1,2640 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE project SYSTEM "mga.dtd">
+
+<project guid="{6C8CAB98-41FA-4477-84CC-213EA150D54B}" cdate="Wed May 26 00:30:02 2021" mdate="Wed May 26 00:30:02 2021" version="" metaguid="{4C9DA8CB-79B4-41CE-83A9-B372E67F552D}" metaversion="" metaname="RootFolder">
+	<name>RootFolder</name>
+	<comment></comment>
+	<author></author>
+	<folder id="id-006a-00000001" relid="0x1" childrelidcntr="0x1" kind="RootFolder" guid="{8f7abcef-6fc5-4e30-936c-3ab12628569c}">
+		<name>RootFolder</name>
+		<model id="id-0065-00000001" kind="Line" guid="{cdfc7ce8-7ed7-46a5-b3b3-63241a8efd5e}" relid="0x1" childrelidcntr="0x9">
+			<name>Line</name>
+			<model id="id-0065-00000002" kind="PROD" role="PROD" guid="{bd225100-d7d6-43e9-8eb8-689a7a17b95a}" relid="0x2" childrelidcntr="0x5">
+				<name>PROD</name>
+				<regnode name="PartRegs" status="undefined">
+					<value></value>
+					<regnode name="Aspect" status="undefined">
+						<value></value>
+						<regnode name="Position" isopaque="yes">
+							<value>287,140</value>
+						</regnode>
+					</regnode>
+				</regnode>
+				<model id="id-0065-00000037" kind="Individual" role="Individual" guid="{7c0055a5-2b2b-4577-a90e-45dbd1a35efc}" relid="0x1" childrelidcntr="0x1">
+					<name>P1</name>
+					<regnode name="PartRegs" status="undefined">
+						<value></value>
+						<regnode name="Aspect" status="undefined">
+							<value></value>
+							<regnode name="Position" isopaque="yes">
+								<value>63,49</value>
+							</regnode>
+						</regnode>
+					</regnode>
+					<model id="id-0065-00000038" kind="Inner" role="Inner" guid="{0db36e7f-ff79-4c8e-8ca3-b95cca449454}" relid="0x1" childrelidcntr="0xf">
+						<name>Inner</name>
+						<regnode name="PartRegs" status="undefined">
+							<value></value>
+							<regnode name="Aspect" status="undefined">
+								<value></value>
+								<regnode name="Position" isopaque="yes">
+									<value>105,84</value>
+								</regnode>
+							</regnode>
+						</regnode>
+						<model id="id-0065-00000039" kind="Loc" role="Loc" guid="{df11a807-a477-4575-8da4-d6759b9c37a5}" relid="0x1" childrelidcntr="0x0">
+							<name>Pwait</name>
+							<regnode name="PartRegs" status="undefined">
+								<value></value>
+								<regnode name="Aspect" status="undefined">
+									<value></value>
+									<regnode name="Position" isopaque="yes">
+										<value>364,126</value>
+									</regnode>
+								</regnode>
+							</regnode>
+							<attribute kind="LocType">
+								<value>Init</value>
+							</attribute>
+						</model>
+						<model id="id-0065-0000003a" kind="Loc" role="Loc" guid="{de2973f8-51f2-4f7a-89bc-cbfd87c9819e}" relid="0x2" childrelidcntr="0x0">
+							<name>apply</name>
+							<regnode name="PartRegs" status="undefined">
+								<value></value>
+								<regnode name="Aspect" status="undefined">
+									<value></value>
+									<regnode name="Position" isopaque="yes">
+										<value>602,126</value>
+									</regnode>
+								</regnode>
+							</regnode>
+							<attribute kind="LocType" status="meta">
+								<value>IsNull</value>
+							</attribute>
+						</model>
+						<model id="id-0065-0000003b" kind="Loc" role="Loc" guid="{4866832e-e186-45bd-a3c0-20aa706c83c3}" relid="0x3" childrelidcntr="0x0">
+							<name>do</name>
+							<regnode name="PartRegs" status="undefined">
+								<value></value>
+								<regnode name="Aspect" status="undefined">
+									<value></value>
+									<regnode name="Position" isopaque="yes">
+										<value>602,364</value>
+									</regnode>
+								</regnode>
+							</regnode>
+							<attribute kind="LocType" status="meta">
+								<value>IsNull</value>
+							</attribute>
+						</model>
+						<model id="id-0065-0000003c" kind="Loc" role="Loc" guid="{5878c1b4-0515-4247-8f60-356817a6ea36}" relid="0x4" childrelidcntr="0x0">
+							<name>internal</name>
+							<regnode name="PartRegs" status="undefined">
+								<value></value>
+								<regnode name="Aspect" status="undefined">
+									<value></value>
+									<regnode name="Position" isopaque="yes">
+										<value>350,434</value>
+									</regnode>
+								</regnode>
+							</regnode>
+							<attribute kind="LocType">
+								<value>Committed</value>
+							</attribute>
+						</model>
+						<model id="id-0065-0000003d" kind="Loc" role="Loc" guid="{429fcecc-ce28-4c87-a0f7-2ea69e264ea3}" relid="0x5" childrelidcntr="0x0">
+							<name>done</name>
+							<regnode name="PartRegs" status="undefined">
+								<value></value>
+								<regnode name="Aspect" status="undefined">
+									<value></value>
+									<regnode name="Position" isopaque="yes">
+										<value>119,259</value>
+									</regnode>
+								</regnode>
+							</regnode>
+							<attribute kind="LocType" status="meta">
+								<value>IsNull</value>
+							</attribute>
+						</model>
+						<model id="id-0065-0000003e" kind="Loc" role="Loc" guid="{5820f215-9816-488f-90da-beb0e813c648}" relid="0x6" childrelidcntr="0x0">
+							<name>pfin</name>
+							<regnode name="PartRegs" status="undefined">
+								<value></value>
+								<regnode name="Aspect" status="undefined">
+									<value></value>
+									<regnode name="Position" isopaque="yes">
+										<value>364,259</value>
+									</regnode>
+								</regnode>
+							</regnode>
+							<attribute kind="LocType" status="meta">
+								<value>IsNull</value>
+							</attribute>
+						</model>
+						<connection id="id-0068-00000039" kind="InINNER" role="InINNER" guid="{87f2fe2d-fe58-46de-b53a-e55c22b64984}" relid="0x7">
+							<name>InINNER</name>
+							<regnode name="autorouterPref" isopaque="yes">
+								<value>Ew</value>
+							</regnode>
+							<regnode name="dstStyle" isopaque="yes">
+								<value>arrow</value>
+							</regnode>
+							<attribute kind="EdgeG">
+								<value>step&lt;6&amp;&amp;wt[pcid-1][step]&gt;0</value>
+							</attribute>
+							<attribute kind="EdgeS" status="meta">
+								<value>IsNull</value>
+							</attribute>
+							<attribute kind="EdgeU" status="meta">
+								<value>IsNull</value>
+							</attribute>
+							<connpoint role="src" target="id-0065-00000039"/>
+							<connpoint role="dst" target="id-0065-0000003a"/>
+						</connection>
+						<connection id="id-0068-0000003a" kind="InINNER" role="InINNER" guid="{dd3e32da-b850-4ca3-98f8-5b2f1dc2c4d2}" relid="0x8">
+							<name>InINNER</name>
+							<regnode name="autorouterPref" isopaque="yes">
+								<value>Sn</value>
+							</regnode>
+							<regnode name="dstStyle" isopaque="yes">
+								<value>arrow</value>
+							</regnode>
+							<attribute kind="EdgeG">
+								<value>s[wm[pcid-1][step]-1][2]&lt;=0</value>
+							</attribute>
+							<attribute kind="EdgeS">
+								<value>sync1!</value>
+							</attribute>
+							<attribute kind="EdgeU">
+								<value>s[wm[pcid-1][step]-1][0]:=pcid,
+s[wm[pcid-1][step]-1][1]:=step,
+s[wm[pcid-1][step]-1][2]:=1,
+ws[pcid-1]:=step</value>
+							</attribute>
+							<connpoint role="src" target="id-0065-0000003a"/>
+							<connpoint role="dst" target="id-0065-0000003b"/>
+						</connection>
+						<connection id="id-0068-0000003b" kind="InINNER" role="InINNER" guid="{8a6492f2-12f2-45f5-b50f-19cea2d616bc}" relid="0x9">
+							<name>InINNER</name>
+							<regnode name="autorouterPref" isopaque="yes">
+								<value>Se</value>
+							</regnode>
+							<regnode name="dstStyle" isopaque="yes">
+								<value>arrow</value>
+							</regnode>
+							<attribute kind="EdgeG" status="meta">
+								<value>IsNull</value>
+							</attribute>
+							<attribute kind="EdgeS">
+								<value>sync2?</value>
+							</attribute>
+							<attribute kind="EdgeU" status="meta">
+								<value>IsNull</value>
+							</attribute>
+							<connpoint role="src" target="id-0065-0000003b"/>
+							<connpoint role="dst" target="id-0065-0000003c"/>
+						</connection>
+						<connection id="id-0068-0000003c" kind="InINNER" role="InINNER" guid="{156a63e1-d50f-4bd2-9c61-94c1a4de2286}" relid="0xa">
+							<name>InINNER</name>
+							<regnode name="autorouterPref" isopaque="yes">
+								<value>Nw</value>
+							</regnode>
+							<regnode name="dstStyle" isopaque="yes">
+								<value>arrow</value>
+							</regnode>
+							<attribute kind="EdgeG">
+								<value>s[wm[pcid-1][step]-1][2]&gt;0&amp;&amp;
+s[wm[pcid-1][step]-1][0]&gt;0</value>
+							</attribute>
+							<attribute kind="EdgeS" status="meta">
+								<value>IsNull</value>
+							</attribute>
+							<attribute kind="EdgeU" status="meta">
+								<value>IsNull</value>
+							</attribute>
+							<connpoint role="dst" target="id-0065-0000003b"/>
+							<connpoint role="src" target="id-0065-0000003c"/>
+						</connection>
+						<connection id="id-0068-0000003d" kind="InINNER" role="InINNER" guid="{30fda3bb-aeda-4307-ba05-887f18b89f05}" relid="0xb">
+							<name>InINNER</name>
+							<regnode name="autorouterPref" isopaque="yes">
+								<value>Ws</value>
+							</regnode>
+							<regnode name="dstStyle" isopaque="yes">
+								<value>arrow</value>
+							</regnode>
+							<attribute kind="EdgeG">
+								<value>s[wm[pcid-1][step]-1][2]&lt;1&amp;&amp;
+s[wm[pcid-1][step]-1][0]&gt;0</value>
+							</attribute>
+							<attribute kind="EdgeS" status="meta">
+								<value>IsNull</value>
+							</attribute>
+							<attribute kind="EdgeU">
+								<value>s[wm[pcid-1][step]-1][0]:=0,
+s[wm[pcid-1][step]-1][1]:=0</value>
+							</attribute>
+							<connpoint role="src" target="id-0065-0000003c"/>
+							<connpoint role="dst" target="id-0065-0000003d"/>
+						</connection>
+						<connection id="id-0068-0000003e" kind="InINNER" role="InINNER" guid="{29d1ba5c-f808-48f8-bf2a-11891bde06d7}" relid="0xc">
+							<name>InINNER</name>
+							<regnode name="autorouterPref" isopaque="yes">
+								<value>Nw</value>
+							</regnode>
+							<regnode name="dstStyle" isopaque="yes">
+								<value>arrow</value>
+							</regnode>
+							<attribute kind="EdgeG" status="meta">
+								<value>IsNull</value>
+							</attribute>
+							<attribute kind="EdgeS" status="meta">
+								<value>IsNull</value>
+							</attribute>
+							<attribute kind="EdgeU">
+								<value>step++</value>
+							</attribute>
+							<connpoint role="dst" target="id-0065-00000039"/>
+							<connpoint role="src" target="id-0065-0000003d"/>
+						</connection>
+						<connection id="id-0068-0000003f" kind="InINNER" role="InINNER" guid="{0f4d7303-1571-4d73-87a9-7b85ac23081a}" relid="0xd">
+							<name>InINNER</name>
+							<regnode name="autorouterPref" isopaque="yes">
+								<value>Wn</value>
+							</regnode>
+							<regnode name="dstStyle" isopaque="yes">
+								<value>arrow</value>
+							</regnode>
+							<attribute kind="EdgeG">
+								<value>step&lt;6&amp;&amp;
+wt[pcid-1][step]&lt;=0</value>
+							</attribute>
+							<attribute kind="EdgeS" status="meta">
+								<value>IsNull</value>
+							</attribute>
+							<attribute kind="EdgeU">
+								<value>step++</value>
+							</attribute>
+							<connpoint role="dst" target="id-0065-00000039"/>
+							<connpoint role="src" target="id-0065-00000039"/>
+						</connection>
+						<connection id="id-0068-00000040" kind="InINNER" role="InINNER" guid="{cd63f684-a8d9-4917-93ac-655a0c9f2b2d}" relid="0xe">
+							<name>InINNER</name>
+							<regnode name="autorouterPref" isopaque="yes">
+								<value>Sn</value>
+							</regnode>
+							<regnode name="dstStyle" isopaque="yes">
+								<value>arrow</value>
+							</regnode>
+							<attribute kind="EdgeG">
+								<value>step&gt;=6</value>
+							</attribute>
+							<attribute kind="EdgeS" status="meta">
+								<value>IsNull</value>
+							</attribute>
+							<attribute kind="EdgeU" status="meta">
+								<value>IsNull</value>
+							</attribute>
+							<connpoint role="src" target="id-0065-00000039"/>
+							<connpoint role="dst" target="id-0065-0000003e"/>
+						</connection>
+						<connection id="id-0068-00000041" kind="InINNER" role="InINNER" guid="{a4c8fca3-593f-433f-99a5-66afba68ae0a}" relid="0xf">
+							<name>InINNER</name>
+							<regnode name="autorouterPref" isopaque="yes">
+								<value>We</value>
+							</regnode>
+							<regnode name="dstStyle" isopaque="yes">
+								<value>arrow</value>
+							</regnode>
+							<attribute kind="EdgeG" status="meta">
+								<value>IsNull</value>
+							</attribute>
+							<attribute kind="EdgeS" status="meta">
+								<value>IsNull</value>
+							</attribute>
+							<attribute kind="EdgeU" status="meta">
+								<value>IsNull</value>
+							</attribute>
+							<connpoint role="dst" target="id-0065-0000003e"/>
+							<connpoint role="src" target="id-0065-0000003e"/>
+						</connection>
+					</model>
+				</model>
+				<model id="id-0065-0000003f" kind="Individual" role="Individual" guid="{599445c4-119b-430e-a04b-6dfe3781278f}" relid="0x4" childrelidcntr="0x1">
+					<name>P2</name>
+					<regnode name="PartRegs" status="undefined">
+						<value></value>
+						<regnode name="Aspect" status="undefined">
+							<value></value>
+							<regnode name="Position" isopaque="yes">
+								<value>63,161</value>
+							</regnode>
+						</regnode>
+					</regnode>
+					<model id="id-0065-00000040" kind="Inner" role="Inner" guid="{392fc909-b400-4771-9e19-58ac6d5c912d}" relid="0x1" childrelidcntr="0xf">
+						<name>Inner</name>
+						<regnode name="PartRegs" status="undefined">
+							<value></value>
+							<regnode name="Aspect" status="undefined">
+								<value></value>
+								<regnode name="Position" isopaque="yes">
+									<value>105,84</value>
+								</regnode>
+							</regnode>
+						</regnode>
+						<model id="id-0065-00000041" kind="Loc" role="Loc" guid="{9bc585eb-9f92-4271-94ad-db542f5b2df9}" relid="0x1" childrelidcntr="0x0">
+							<name>Pwait</name>
+							<regnode name="PartRegs" status="undefined">
+								<value></value>
+								<regnode name="Aspect" status="undefined">
+									<value></value>
+									<regnode name="Position" isopaque="yes">
+										<value>364,126</value>
+									</regnode>
+								</regnode>
+							</regnode>
+							<attribute kind="LocType">
+								<value>Init</value>
+							</attribute>
+						</model>
+						<model id="id-0065-00000042" kind="Loc" role="Loc" guid="{bed51f5d-b5fa-414c-a1d9-118c13aca6df}" relid="0x2" childrelidcntr="0x0">
+							<name>apply</name>
+							<regnode name="PartRegs" status="undefined">
+								<value></value>
+								<regnode name="Aspect" status="undefined">
+									<value></value>
+									<regnode name="Position" isopaque="yes">
+										<value>602,126</value>
+									</regnode>
+								</regnode>
+							</regnode>
+							<attribute kind="LocType" status="meta">
+								<value>IsNull</value>
+							</attribute>
+						</model>
+						<model id="id-0065-00000043" kind="Loc" role="Loc" guid="{8adb3610-7b20-499f-bdc7-2983eca29f26}" relid="0x3" childrelidcntr="0x0">
+							<name>do</name>
+							<regnode name="PartRegs" status="undefined">
+								<value></value>
+								<regnode name="Aspect" status="undefined">
+									<value></value>
+									<regnode name="Position" isopaque="yes">
+										<value>602,364</value>
+									</regnode>
+								</regnode>
+							</regnode>
+							<attribute kind="LocType" status="meta">
+								<value>IsNull</value>
+							</attribute>
+						</model>
+						<model id="id-0065-00000044" kind="Loc" role="Loc" guid="{5f29fe0f-b1b1-4d84-a7bb-4624c92c519a}" relid="0x4" childrelidcntr="0x0">
+							<name>internal</name>
+							<regnode name="PartRegs" status="undefined">
+								<value></value>
+								<regnode name="Aspect" status="undefined">
+									<value></value>
+									<regnode name="Position" isopaque="yes">
+										<value>350,434</value>
+									</regnode>
+								</regnode>
+							</regnode>
+							<attribute kind="LocType">
+								<value>Committed</value>
+							</attribute>
+						</model>
+						<model id="id-0065-00000045" kind="Loc" role="Loc" guid="{2cc62d0e-d8b0-4a2d-97c4-86a047c629db}" relid="0x5" childrelidcntr="0x0">
+							<name>done</name>
+							<regnode name="PartRegs" status="undefined">
+								<value></value>
+								<regnode name="Aspect" status="undefined">
+									<value></value>
+									<regnode name="Position" isopaque="yes">
+										<value>119,259</value>
+									</regnode>
+								</regnode>
+							</regnode>
+							<attribute kind="LocType" status="meta">
+								<value>IsNull</value>
+							</attribute>
+						</model>
+						<model id="id-0065-00000046" kind="Loc" role="Loc" guid="{66e2ca82-a414-4fae-8436-7a3dda02a59e}" relid="0x6" childrelidcntr="0x0">
+							<name>pfin</name>
+							<regnode name="PartRegs" status="undefined">
+								<value></value>
+								<regnode name="Aspect" status="undefined">
+									<value></value>
+									<regnode name="Position" isopaque="yes">
+										<value>364,259</value>
+									</regnode>
+								</regnode>
+							</regnode>
+							<attribute kind="LocType" status="meta">
+								<value>IsNull</value>
+							</attribute>
+						</model>
+						<connection id="id-0068-00000042" kind="InINNER" role="InINNER" guid="{434a4095-7ca0-4dc7-87ab-49992538c2d1}" relid="0x7">
+							<name>InINNER</name>
+							<regnode name="autorouterPref" isopaque="yes">
+								<value>Ew</value>
+							</regnode>
+							<regnode name="dstStyle" isopaque="yes">
+								<value>arrow</value>
+							</regnode>
+							<attribute kind="EdgeG">
+								<value>step&lt;6&amp;&amp;wt[pcid-1][step]&gt;0</value>
+							</attribute>
+							<attribute kind="EdgeS" status="meta">
+								<value>IsNull</value>
+							</attribute>
+							<attribute kind="EdgeU" status="meta">
+								<value>IsNull</value>
+							</attribute>
+							<connpoint role="src" target="id-0065-00000041"/>
+							<connpoint role="dst" target="id-0065-00000042"/>
+						</connection>
+						<connection id="id-0068-00000043" kind="InINNER" role="InINNER" guid="{afb355f5-80a8-40e5-84fb-8002d3017438}" relid="0xa">
+							<name>InINNER</name>
+							<regnode name="autorouterPref" isopaque="yes">
+								<value>Nw</value>
+							</regnode>
+							<regnode name="dstStyle" isopaque="yes">
+								<value>arrow</value>
+							</regnode>
+							<attribute kind="EdgeG">
+								<value>s[wm[pcid-1][step]-1][2]&gt;0&amp;&amp;
+s[wm[pcid-1][step]-1][0]&gt;0</value>
+							</attribute>
+							<attribute kind="EdgeS" status="meta">
+								<value>IsNull</value>
+							</attribute>
+							<attribute kind="EdgeU" status="meta">
+								<value>IsNull</value>
+							</attribute>
+							<connpoint role="dst" target="id-0065-00000043"/>
+							<connpoint role="src" target="id-0065-00000044"/>
+						</connection>
+						<connection id="id-0068-00000044" kind="InINNER" role="InINNER" guid="{f9060501-6016-428f-aab9-3793da563b04}" relid="0xe">
+							<name>InINNER</name>
+							<regnode name="autorouterPref" isopaque="yes">
+								<value>Sn</value>
+							</regnode>
+							<regnode name="dstStyle" isopaque="yes">
+								<value>arrow</value>
+							</regnode>
+							<attribute kind="EdgeG">
+								<value>step&gt;=6</value>
+							</attribute>
+							<attribute kind="EdgeS" status="meta">
+								<value>IsNull</value>
+							</attribute>
+							<attribute kind="EdgeU" status="meta">
+								<value>IsNull</value>
+							</attribute>
+							<connpoint role="src" target="id-0065-00000041"/>
+							<connpoint role="dst" target="id-0065-00000046"/>
+						</connection>
+						<connection id="id-0068-00000045" kind="InINNER" role="InINNER" guid="{0522c9c8-6fa6-4d26-bcdf-c4c65e0161e0}" relid="0xb">
+							<name>InINNER</name>
+							<regnode name="autorouterPref" isopaque="yes">
+								<value>Ws</value>
+							</regnode>
+							<regnode name="dstStyle" isopaque="yes">
+								<value>arrow</value>
+							</regnode>
+							<attribute kind="EdgeG">
+								<value>s[wm[pcid-1][step]-1][2]&lt;1&amp;&amp;
+s[wm[pcid-1][step]-1][0]&gt;0</value>
+							</attribute>
+							<attribute kind="EdgeS" status="meta">
+								<value>IsNull</value>
+							</attribute>
+							<attribute kind="EdgeU">
+								<value>s[wm[pcid-1][step]-1][0]:=0,
+s[wm[pcid-1][step]-1][1]:=0</value>
+							</attribute>
+							<connpoint role="src" target="id-0065-00000044"/>
+							<connpoint role="dst" target="id-0065-00000045"/>
+						</connection>
+						<connection id="id-0068-00000046" kind="InINNER" role="InINNER" guid="{1f8f8e16-124f-4d23-bac8-e1697826d177}" relid="0xd">
+							<name>InINNER</name>
+							<regnode name="autorouterPref" isopaque="yes">
+								<value>Wn</value>
+							</regnode>
+							<regnode name="dstStyle" isopaque="yes">
+								<value>arrow</value>
+							</regnode>
+							<attribute kind="EdgeG">
+								<value>step&lt;6&amp;&amp;
+wt[pcid-1][step]&lt;=0</value>
+							</attribute>
+							<attribute kind="EdgeS" status="meta">
+								<value>IsNull</value>
+							</attribute>
+							<attribute kind="EdgeU">
+								<value>step++</value>
+							</attribute>
+							<connpoint role="dst" target="id-0065-00000041"/>
+							<connpoint role="src" target="id-0065-00000041"/>
+						</connection>
+						<connection id="id-0068-00000047" kind="InINNER" role="InINNER" guid="{314ca4be-566c-4371-b859-dc317b02c288}" relid="0x8">
+							<name>InINNER</name>
+							<regnode name="autorouterPref" isopaque="yes">
+								<value>Sn</value>
+							</regnode>
+							<regnode name="dstStyle" isopaque="yes">
+								<value>arrow</value>
+							</regnode>
+							<attribute kind="EdgeG">
+								<value>s[wm[pcid-1][step]-1][2]&lt;=0</value>
+							</attribute>
+							<attribute kind="EdgeS">
+								<value>sync1!</value>
+							</attribute>
+							<attribute kind="EdgeU">
+								<value>s[wm[pcid-1][step]-1][0]:=pcid,
+s[wm[pcid-1][step]-1][1]:=step,
+s[wm[pcid-1][step]-1][2]:=1,
+ws[pcid-1]:=step</value>
+							</attribute>
+							<connpoint role="src" target="id-0065-00000042"/>
+							<connpoint role="dst" target="id-0065-00000043"/>
+						</connection>
+						<connection id="id-0068-00000048" kind="InINNER" role="InINNER" guid="{3606d208-c418-4781-8727-fc13de9bb210}" relid="0x9">
+							<name>InINNER</name>
+							<regnode name="autorouterPref" isopaque="yes">
+								<value>Se</value>
+							</regnode>
+							<regnode name="dstStyle" isopaque="yes">
+								<value>arrow</value>
+							</regnode>
+							<attribute kind="EdgeG" status="meta">
+								<value>IsNull</value>
+							</attribute>
+							<attribute kind="EdgeS">
+								<value>sync2?</value>
+							</attribute>
+							<attribute kind="EdgeU" status="meta">
+								<value>IsNull</value>
+							</attribute>
+							<connpoint role="src" target="id-0065-00000043"/>
+							<connpoint role="dst" target="id-0065-00000044"/>
+						</connection>
+						<connection id="id-0068-00000049" kind="InINNER" role="InINNER" guid="{7169ea2f-5432-496a-8429-c88329ff2c7c}" relid="0xc">
+							<name>InINNER</name>
+							<regnode name="autorouterPref" isopaque="yes">
+								<value>Nw</value>
+							</regnode>
+							<regnode name="dstStyle" isopaque="yes">
+								<value>arrow</value>
+							</regnode>
+							<attribute kind="EdgeG" status="meta">
+								<value>IsNull</value>
+							</attribute>
+							<attribute kind="EdgeS" status="meta">
+								<value>IsNull</value>
+							</attribute>
+							<attribute kind="EdgeU">
+								<value>step++</value>
+							</attribute>
+							<connpoint role="dst" target="id-0065-00000041"/>
+							<connpoint role="src" target="id-0065-00000045"/>
+						</connection>
+						<connection id="id-0068-0000004a" kind="InINNER" role="InINNER" guid="{977e50bc-33a5-43e0-bb93-b97e2208da23}" relid="0xf">
+							<name>InINNER</name>
+							<regnode name="autorouterPref" isopaque="yes">
+								<value>We</value>
+							</regnode>
+							<regnode name="dstStyle" isopaque="yes">
+								<value>arrow</value>
+							</regnode>
+							<attribute kind="EdgeG" status="meta">
+								<value>IsNull</value>
+							</attribute>
+							<attribute kind="EdgeS" status="meta">
+								<value>IsNull</value>
+							</attribute>
+							<attribute kind="EdgeU" status="meta">
+								<value>IsNull</value>
+							</attribute>
+							<connpoint role="dst" target="id-0065-00000046"/>
+							<connpoint role="src" target="id-0065-00000046"/>
+						</connection>
+					</model>
+				</model>
+				<model id="id-0065-00000047" kind="Individual" role="Individual" guid="{5a56d307-2070-4afa-9dde-1dd0e05351f4}" relid="0x5" childrelidcntr="0x1">
+					<name>P3</name>
+					<regnode name="PartRegs" status="undefined">
+						<value></value>
+						<regnode name="Aspect" status="undefined">
+							<value></value>
+							<regnode name="Position" isopaque="yes">
+								<value>42,287</value>
+							</regnode>
+						</regnode>
+					</regnode>
+					<model id="id-0065-00000048" kind="Inner" role="Inner" guid="{3eb4bfae-6e99-4e45-a329-ab57b46ffbbc}" relid="0x1" childrelidcntr="0xf">
+						<name>Inner</name>
+						<regnode name="PartRegs" status="undefined">
+							<value></value>
+							<regnode name="Aspect" status="undefined">
+								<value></value>
+								<regnode name="Position" isopaque="yes">
+									<value>105,84</value>
+								</regnode>
+							</regnode>
+						</regnode>
+						<model id="id-0065-00000049" kind="Loc" role="Loc" guid="{be9e15cb-9b80-4484-ac25-e5bcf336f5ba}" relid="0x1" childrelidcntr="0x0">
+							<name>Pwait</name>
+							<regnode name="PartRegs" status="undefined">
+								<value></value>
+								<regnode name="Aspect" status="undefined">
+									<value></value>
+									<regnode name="Position" isopaque="yes">
+										<value>364,126</value>
+									</regnode>
+								</regnode>
+							</regnode>
+							<attribute kind="LocType">
+								<value>Init</value>
+							</attribute>
+						</model>
+						<model id="id-0065-0000004a" kind="Loc" role="Loc" guid="{ceedb972-5f96-450f-8370-db24d3627131}" relid="0x2" childrelidcntr="0x0">
+							<name>apply</name>
+							<regnode name="PartRegs" status="undefined">
+								<value></value>
+								<regnode name="Aspect" status="undefined">
+									<value></value>
+									<regnode name="Position" isopaque="yes">
+										<value>602,126</value>
+									</regnode>
+								</regnode>
+							</regnode>
+							<attribute kind="LocType" status="meta">
+								<value>IsNull</value>
+							</attribute>
+						</model>
+						<model id="id-0065-0000004b" kind="Loc" role="Loc" guid="{6dffd9e9-291b-43df-ba49-db9379f9e58e}" relid="0x3" childrelidcntr="0x0">
+							<name>do</name>
+							<regnode name="PartRegs" status="undefined">
+								<value></value>
+								<regnode name="Aspect" status="undefined">
+									<value></value>
+									<regnode name="Position" isopaque="yes">
+										<value>602,364</value>
+									</regnode>
+								</regnode>
+							</regnode>
+							<attribute kind="LocType" status="meta">
+								<value>IsNull</value>
+							</attribute>
+						</model>
+						<model id="id-0065-0000004c" kind="Loc" role="Loc" guid="{9f0d0310-26e1-44ed-8cbf-f3467ae5a89d}" relid="0x4" childrelidcntr="0x0">
+							<name>internal</name>
+							<regnode name="PartRegs" status="undefined">
+								<value></value>
+								<regnode name="Aspect" status="undefined">
+									<value></value>
+									<regnode name="Position" isopaque="yes">
+										<value>350,434</value>
+									</regnode>
+								</regnode>
+							</regnode>
+							<attribute kind="LocType">
+								<value>Committed</value>
+							</attribute>
+						</model>
+						<model id="id-0065-0000004d" kind="Loc" role="Loc" guid="{c2400269-4fbb-4d58-886a-f1fcf4f2a37b}" relid="0x5" childrelidcntr="0x0">
+							<name>done</name>
+							<regnode name="PartRegs" status="undefined">
+								<value></value>
+								<regnode name="Aspect" status="undefined">
+									<value></value>
+									<regnode name="Position" isopaque="yes">
+										<value>119,259</value>
+									</regnode>
+								</regnode>
+							</regnode>
+							<attribute kind="LocType" status="meta">
+								<value>IsNull</value>
+							</attribute>
+						</model>
+						<model id="id-0065-0000004e" kind="Loc" role="Loc" guid="{ae44d6a0-c8c8-480e-8df2-e32fda329654}" relid="0x6" childrelidcntr="0x0">
+							<name>pfin</name>
+							<regnode name="PartRegs" status="undefined">
+								<value></value>
+								<regnode name="Aspect" status="undefined">
+									<value></value>
+									<regnode name="Position" isopaque="yes">
+										<value>364,259</value>
+									</regnode>
+								</regnode>
+							</regnode>
+							<attribute kind="LocType" status="meta">
+								<value>IsNull</value>
+							</attribute>
+						</model>
+						<connection id="id-0068-0000004b" kind="InINNER" role="InINNER" guid="{5106ac79-ca3d-4dc7-92bc-a0ada5d358b7}" relid="0x7">
+							<name>InINNER</name>
+							<regnode name="autorouterPref" isopaque="yes">
+								<value>Ew</value>
+							</regnode>
+							<regnode name="dstStyle" isopaque="yes">
+								<value>arrow</value>
+							</regnode>
+							<attribute kind="EdgeG">
+								<value>step&lt;6&amp;&amp;wt[pcid-1][step]&gt;0</value>
+							</attribute>
+							<attribute kind="EdgeS" status="meta">
+								<value>IsNull</value>
+							</attribute>
+							<attribute kind="EdgeU" status="meta">
+								<value>IsNull</value>
+							</attribute>
+							<connpoint role="src" target="id-0065-00000049"/>
+							<connpoint role="dst" target="id-0065-0000004a"/>
+						</connection>
+						<connection id="id-0068-0000004c" kind="InINNER" role="InINNER" guid="{1af07fbf-52eb-440a-89fa-595c8d6f75ba}" relid="0x8">
+							<name>InINNER</name>
+							<regnode name="autorouterPref" isopaque="yes">
+								<value>Sn</value>
+							</regnode>
+							<regnode name="dstStyle" isopaque="yes">
+								<value>arrow</value>
+							</regnode>
+							<attribute kind="EdgeG">
+								<value>s[wm[pcid-1][step]-1][2]&lt;=0</value>
+							</attribute>
+							<attribute kind="EdgeS">
+								<value>sync1!</value>
+							</attribute>
+							<attribute kind="EdgeU">
+								<value>s[wm[pcid-1][step]-1][0]:=pcid,
+s[wm[pcid-1][step]-1][1]:=step,
+s[wm[pcid-1][step]-1][2]:=1,
+ws[pcid-1]:=step</value>
+							</attribute>
+							<connpoint role="src" target="id-0065-0000004a"/>
+							<connpoint role="dst" target="id-0065-0000004b"/>
+						</connection>
+						<connection id="id-0068-0000004d" kind="InINNER" role="InINNER" guid="{7486e53c-d757-4abb-b96c-a1fe032a721a}" relid="0x9">
+							<name>InINNER</name>
+							<regnode name="autorouterPref" isopaque="yes">
+								<value>Se</value>
+							</regnode>
+							<regnode name="dstStyle" isopaque="yes">
+								<value>arrow</value>
+							</regnode>
+							<attribute kind="EdgeG" status="meta">
+								<value>IsNull</value>
+							</attribute>
+							<attribute kind="EdgeS">
+								<value>sync2?</value>
+							</attribute>
+							<attribute kind="EdgeU" status="meta">
+								<value>IsNull</value>
+							</attribute>
+							<connpoint role="src" target="id-0065-0000004b"/>
+							<connpoint role="dst" target="id-0065-0000004c"/>
+						</connection>
+						<connection id="id-0068-0000004e" kind="InINNER" role="InINNER" guid="{035a9265-d05c-4b0a-b1d3-20c29fe44fc6}" relid="0xa">
+							<name>InINNER</name>
+							<regnode name="autorouterPref" isopaque="yes">
+								<value>Nw</value>
+							</regnode>
+							<regnode name="dstStyle" isopaque="yes">
+								<value>arrow</value>
+							</regnode>
+							<attribute kind="EdgeG">
+								<value>s[wm[pcid-1][step]-1][2]&gt;0&amp;&amp;
+s[wm[pcid-1][step]-1][0]&gt;0</value>
+							</attribute>
+							<attribute kind="EdgeS" status="meta">
+								<value>IsNull</value>
+							</attribute>
+							<attribute kind="EdgeU" status="meta">
+								<value>IsNull</value>
+							</attribute>
+							<connpoint role="dst" target="id-0065-0000004b"/>
+							<connpoint role="src" target="id-0065-0000004c"/>
+						</connection>
+						<connection id="id-0068-0000004f" kind="InINNER" role="InINNER" guid="{d5d631f0-4107-4354-bac6-0af3a31eaf80}" relid="0xb">
+							<name>InINNER</name>
+							<regnode name="autorouterPref" isopaque="yes">
+								<value>Ws</value>
+							</regnode>
+							<regnode name="dstStyle" isopaque="yes">
+								<value>arrow</value>
+							</regnode>
+							<attribute kind="EdgeG">
+								<value>s[wm[pcid-1][step]-1][2]&lt;1&amp;&amp;
+s[wm[pcid-1][step]-1][0]&gt;0</value>
+							</attribute>
+							<attribute kind="EdgeS" status="meta">
+								<value>IsNull</value>
+							</attribute>
+							<attribute kind="EdgeU">
+								<value>s[wm[pcid-1][step]-1][0]:=0,
+s[wm[pcid-1][step]-1][1]:=0</value>
+							</attribute>
+							<connpoint role="src" target="id-0065-0000004c"/>
+							<connpoint role="dst" target="id-0065-0000004d"/>
+						</connection>
+						<connection id="id-0068-00000050" kind="InINNER" role="InINNER" guid="{cb059dec-7cd3-4cc4-99c2-a3a801c8aa6a}" relid="0xe">
+							<name>InINNER</name>
+							<regnode name="autorouterPref" isopaque="yes">
+								<value>Sn</value>
+							</regnode>
+							<regnode name="dstStyle" isopaque="yes">
+								<value>arrow</value>
+							</regnode>
+							<attribute kind="EdgeG">
+								<value>step&gt;=6</value>
+							</attribute>
+							<attribute kind="EdgeS" status="meta">
+								<value>IsNull</value>
+							</attribute>
+							<attribute kind="EdgeU" status="meta">
+								<value>IsNull</value>
+							</attribute>
+							<connpoint role="src" target="id-0065-00000049"/>
+							<connpoint role="dst" target="id-0065-0000004e"/>
+						</connection>
+						<connection id="id-0068-00000051" kind="InINNER" role="InINNER" guid="{670b81ec-26e5-434f-8b0b-7e3e4fb998b1}" relid="0xd">
+							<name>InINNER</name>
+							<regnode name="autorouterPref" isopaque="yes">
+								<value>Wn</value>
+							</regnode>
+							<regnode name="dstStyle" isopaque="yes">
+								<value>arrow</value>
+							</regnode>
+							<attribute kind="EdgeG">
+								<value>step&lt;6&amp;&amp;
+wt[pcid-1][step]&lt;=0</value>
+							</attribute>
+							<attribute kind="EdgeS" status="meta">
+								<value>IsNull</value>
+							</attribute>
+							<attribute kind="EdgeU">
+								<value>step++</value>
+							</attribute>
+							<connpoint role="dst" target="id-0065-00000049"/>
+							<connpoint role="src" target="id-0065-00000049"/>
+						</connection>
+						<connection id="id-0068-00000052" kind="InINNER" role="InINNER" guid="{83866c46-1581-4113-a07e-a083d783906f}" relid="0xc">
+							<name>InINNER</name>
+							<regnode name="autorouterPref" isopaque="yes">
+								<value>Nw</value>
+							</regnode>
+							<regnode name="dstStyle" isopaque="yes">
+								<value>arrow</value>
+							</regnode>
+							<attribute kind="EdgeG" status="meta">
+								<value>IsNull</value>
+							</attribute>
+							<attribute kind="EdgeS" status="meta">
+								<value>IsNull</value>
+							</attribute>
+							<attribute kind="EdgeU">
+								<value>step++</value>
+							</attribute>
+							<connpoint role="dst" target="id-0065-00000049"/>
+							<connpoint role="src" target="id-0065-0000004d"/>
+						</connection>
+						<connection id="id-0068-00000053" kind="InINNER" role="InINNER" guid="{0d475cf0-4eca-4ca5-b99b-237db1abf651}" relid="0xf">
+							<name>InINNER</name>
+							<regnode name="autorouterPref" isopaque="yes">
+								<value>We</value>
+							</regnode>
+							<regnode name="dstStyle" isopaque="yes">
+								<value>arrow</value>
+							</regnode>
+							<attribute kind="EdgeG" status="meta">
+								<value>IsNull</value>
+							</attribute>
+							<attribute kind="EdgeS" status="meta">
+								<value>IsNull</value>
+							</attribute>
+							<attribute kind="EdgeU" status="meta">
+								<value>IsNull</value>
+							</attribute>
+							<connpoint role="dst" target="id-0065-0000004e"/>
+							<connpoint role="src" target="id-0065-0000004e"/>
+						</connection>
+					</model>
+				</model>
+				<atom id="id-0066-00000008" kind="PRODStatement" role="PRODStatement" guid="{94494846-7c98-4c3e-b972-93ecf50d18ef}" relid="0x2">
+					<name>PRODStatement</name>
+					<regnode name="PartRegs" status="undefined">
+						<value></value>
+						<regnode name="Aspect" status="undefined">
+							<value></value>
+							<regnode name="Position" isopaque="yes">
+								<value>252,42</value>
+							</regnode>
+						</regnode>
+					</regnode>
+					<attribute kind="PRODStatement">
+						<value>int step=0;</value>
+					</attribute>
+				</atom>
+				<atom id="id-0066-00000009" kind="PRODpara" role="PRODpara" guid="{b9df3fab-0768-411b-a0da-c5206102cd0e}" relid="0x3">
+					<name>PRODpara</name>
+					<regnode name="PartRegs" status="undefined">
+						<value></value>
+						<regnode name="Aspect" status="undefined">
+							<value></value>
+							<regnode name="Position" isopaque="yes">
+								<value>252,147</value>
+							</regnode>
+						</regnode>
+					</regnode>
+					<attribute kind="PRODpara">
+						<value>const int pcid</value>
+					</attribute>
+				</atom>
+			</model>
+			<model id="id-0065-00000003" kind="RES" role="RES" guid="{e8dfc55f-d95a-4706-a446-df9da5a802e2}" relid="0x3" childrelidcntr="0x14">
+				<name>RES</name>
+				<regnode name="PartRegs" status="undefined">
+					<value></value>
+					<regnode name="Aspect" status="undefined">
+						<value></value>
+						<regnode name="Position" isopaque="yes">
+							<value>476,140</value>
+						</regnode>
+					</regnode>
+				</regnode>
+				<model id="id-0065-00000007" kind="AllDevices" role="AllDevices" guid="{d2a4a52f-49f3-437a-9602-bbb0e0c657a9}" relid="0x3" childrelidcntr="0x1">
+					<name>Device1</name>
+					<regnode name="PartRegs" status="undefined">
+						<value></value>
+						<regnode name="Aspect" status="undefined">
+							<value></value>
+							<regnode name="Position" isopaque="yes">
+								<value>28,105</value>
+							</regnode>
+						</regnode>
+					</regnode>
+					<model id="id-0065-0000000f" kind="Inner" role="Inner" guid="{4a71f277-2918-49eb-939b-c8aafca5d383}" relid="0x1" childrelidcntr="0x9">
+						<name>Inner</name>
+						<regnode name="PartRegs" status="undefined">
+							<value></value>
+							<regnode name="Aspect" status="undefined">
+								<value></value>
+								<regnode name="Position" isopaque="yes">
+									<value>161,77</value>
+								</regnode>
+							</regnode>
+						</regnode>
+						<model id="id-0065-00000010" kind="Loc" role="Loc" guid="{767aa725-4576-4b0b-85e9-299647cd5d02}" relid="0x1" childrelidcntr="0x0">
+							<name>Loc</name>
+							<regnode name="PartRegs" status="undefined">
+								<value></value>
+								<regnode name="Aspect" status="undefined">
+									<value></value>
+									<regnode name="Position" isopaque="yes">
+										<value>175,126</value>
+									</regnode>
+								</regnode>
+							</regnode>
+							<attribute kind="LocType">
+								<value>Init</value>
+							</attribute>
+						</model>
+						<model id="id-0065-00000011" kind="Loc" role="Loc" guid="{23899806-e835-48cb-9a94-0bad1ef8cb66}" relid="0x2" childrelidcntr="0x0">
+							<name>Loc</name>
+							<regnode name="PartRegs" status="undefined">
+								<value></value>
+								<regnode name="Aspect" status="undefined">
+									<value></value>
+									<regnode name="Position" isopaque="yes">
+										<value>427,126</value>
+									</regnode>
+								</regnode>
+							</regnode>
+							<attribute kind="LocType">
+								<value>Committed</value>
+							</attribute>
+						</model>
+						<model id="id-0065-00000012" kind="Loc" role="Loc" guid="{c74e24b9-67d5-4b55-971e-96ef4497f369}" relid="0x3" childrelidcntr="0x0">
+							<name>Loc</name>
+							<regnode name="PartRegs" status="undefined">
+								<value></value>
+								<regnode name="Aspect" status="undefined">
+									<value></value>
+									<regnode name="Position" isopaque="yes">
+										<value>693,126</value>
+									</regnode>
+								</regnode>
+							</regnode>
+							<attribute kind="LocType" status="meta">
+								<value>IsNull</value>
+							</attribute>
+						</model>
+						<model id="id-0065-00000013" kind="Loc" role="Loc" guid="{05604f02-10be-4f31-9e62-4d44706dd510}" relid="0x4" childrelidcntr="0x0">
+							<name>Loc</name>
+							<regnode name="PartRegs" status="undefined">
+								<value></value>
+								<regnode name="Aspect" status="undefined">
+									<value></value>
+									<regnode name="Position" isopaque="yes">
+										<value>413,329</value>
+									</regnode>
+								</regnode>
+							</regnode>
+							<attribute kind="LocType">
+								<value>Committed</value>
+							</attribute>
+						</model>
+						<connection id="id-0068-00000011" kind="InINNER" role="InINNER" guid="{926bf8c7-e354-4ca8-812b-bd9f7fead165}" relid="0x5">
+							<name>InINNER</name>
+							<regnode name="autorouterPref" isopaque="yes">
+								<value>Ew</value>
+							</regnode>
+							<regnode name="dstStyle" isopaque="yes">
+								<value>arrow</value>
+							</regnode>
+							<attribute kind="EdgeG" status="meta">
+								<value>IsNull</value>
+							</attribute>
+							<attribute kind="EdgeS">
+								<value>sync1?</value>
+							</attribute>
+							<attribute kind="EdgeU" status="meta">
+								<value>IsNull</value>
+							</attribute>
+							<connpoint role="src" target="id-0065-00000010"/>
+							<connpoint role="dst" target="id-0065-00000011"/>
+						</connection>
+						<connection id="id-0068-00000012" kind="InINNER" role="InINNER" guid="{d200a2e7-f3f8-48f0-8a84-2dd939d54728}" relid="0x6">
+							<name>InINNER</name>
+							<regnode name="autorouterPref" isopaque="yes">
+								<value>Nn</value>
+							</regnode>
+							<regnode name="dstStyle" isopaque="yes">
+								<value>arrow</value>
+							</regnode>
+							<attribute kind="EdgeG">
+								<value>s[did-1][2]&lt;=0</value>
+							</attribute>
+							<attribute kind="EdgeS" status="meta">
+								<value>IsNull</value>
+							</attribute>
+							<attribute kind="EdgeU" status="meta">
+								<value>IsNull</value>
+							</attribute>
+							<connpoint role="dst" target="id-0065-00000010"/>
+							<connpoint role="src" target="id-0065-00000011"/>
+						</connection>
+						<connection id="id-0068-00000013" kind="InINNER" role="InINNER" guid="{a883f43c-e355-4780-bb1f-7c24fa374fd6}" relid="0x7">
+							<name>InINNER</name>
+							<regnode name="autorouterPref" isopaque="yes">
+								<value>Ew</value>
+							</regnode>
+							<regnode name="dstStyle" isopaque="yes">
+								<value>arrow</value>
+							</regnode>
+							<attribute kind="EdgeG" status="meta">
+								<value>IsNull</value>
+							</attribute>
+							<attribute kind="EdgeS">
+								<value>s[did-1][2]&gt;0</value>
+							</attribute>
+							<attribute kind="EdgeU">
+								<value>t:=0</value>
+							</attribute>
+							<connpoint role="src" target="id-0065-00000011"/>
+							<connpoint role="dst" target="id-0065-00000012"/>
+						</connection>
+						<connection id="id-0068-00000014" kind="InINNER" role="InINNER" guid="{ec096bb4-e10f-4b1c-85c2-4c27a314c9b5}" relid="0x8">
+							<name>InINNER</name>
+							<regnode name="autorouterPref" isopaque="yes">
+								<value>Se</value>
+							</regnode>
+							<regnode name="dstStyle" isopaque="yes">
+								<value>arrow</value>
+							</regnode>
+							<attribute kind="EdgeG">
+								<value>t&gt;=wt[s[did-1][0]-1][s[did-1][1]]</value>
+							</attribute>
+							<attribute kind="EdgeS" status="meta">
+								<value>IsNull</value>
+							</attribute>
+							<attribute kind="EdgeU" status="meta">
+								<value>IsNull</value>
+							</attribute>
+							<connpoint role="src" target="id-0065-00000012"/>
+							<connpoint role="dst" target="id-0065-00000013"/>
+						</connection>
+						<connection id="id-0068-00000015" kind="InINNER" role="InINNER" guid="{e333b17d-eec5-482e-8c0f-562d2b391c21}" relid="0x9">
+							<name>InINNER</name>
+							<regnode name="autorouterPref" isopaque="yes">
+								<value>Ws</value>
+							</regnode>
+							<regnode name="dstStyle" isopaque="yes">
+								<value>arrow</value>
+							</regnode>
+							<attribute kind="EdgeG" status="meta">
+								<value>IsNull</value>
+							</attribute>
+							<attribute kind="EdgeS">
+								<value>sync2!</value>
+							</attribute>
+							<attribute kind="EdgeU">
+								<value>s[did-1][2]:=0</value>
+							</attribute>
+							<connpoint role="dst" target="id-0065-00000010"/>
+							<connpoint role="src" target="id-0065-00000013"/>
+						</connection>
+					</model>
+				</model>
+				<model id="id-0065-00000008" kind="AllDevices" role="AllDevices" guid="{c8342c7a-eb17-4bdd-b911-9c8a4bd15e2a}" relid="0x4" childrelidcntr="0x1">
+					<name>Device2</name>
+					<regnode name="PartRegs" status="undefined">
+						<value></value>
+						<regnode name="Aspect" status="undefined">
+							<value></value>
+							<regnode name="Position" isopaque="yes">
+								<value>245,105</value>
+							</regnode>
+						</regnode>
+					</regnode>
+					<model id="id-0065-00000014" kind="Inner" role="Inner" guid="{1aa335ea-37a5-47f9-9646-955062def62f}" relid="0x1" childrelidcntr="0x9">
+						<name>Inner</name>
+						<regnode name="PartRegs" status="undefined">
+							<value></value>
+							<regnode name="Aspect" status="undefined">
+								<value></value>
+								<regnode name="Position" isopaque="yes">
+									<value>161,77</value>
+								</regnode>
+							</regnode>
+						</regnode>
+						<model id="id-0065-00000015" kind="Loc" role="Loc" guid="{f667ee8e-5579-4bae-9bcb-ffb2bbcfaca7}" relid="0x1" childrelidcntr="0x0">
+							<name>Loc</name>
+							<regnode name="PartRegs" status="undefined">
+								<value></value>
+								<regnode name="Aspect" status="undefined">
+									<value></value>
+									<regnode name="Position" isopaque="yes">
+										<value>175,126</value>
+									</regnode>
+								</regnode>
+							</regnode>
+							<attribute kind="LocType">
+								<value>Init</value>
+							</attribute>
+						</model>
+						<model id="id-0065-00000016" kind="Loc" role="Loc" guid="{1888f0d5-bd2b-4a2d-822b-776b5090e8b4}" relid="0x4" childrelidcntr="0x0">
+							<name>Loc</name>
+							<regnode name="PartRegs" status="undefined">
+								<value></value>
+								<regnode name="Aspect" status="undefined">
+									<value></value>
+									<regnode name="Position" isopaque="yes">
+										<value>413,329</value>
+									</regnode>
+								</regnode>
+							</regnode>
+							<attribute kind="LocType">
+								<value>Committed</value>
+							</attribute>
+						</model>
+						<model id="id-0065-00000017" kind="Loc" role="Loc" guid="{176e5082-0e42-4f9f-8aec-c3d7258c32b2}" relid="0x3" childrelidcntr="0x0">
+							<name>Loc</name>
+							<regnode name="PartRegs" status="undefined">
+								<value></value>
+								<regnode name="Aspect" status="undefined">
+									<value></value>
+									<regnode name="Position" isopaque="yes">
+										<value>693,119</value>
+									</regnode>
+								</regnode>
+							</regnode>
+							<attribute kind="LocType" status="meta">
+								<value>IsNull</value>
+							</attribute>
+						</model>
+						<model id="id-0065-00000018" kind="Loc" role="Loc" guid="{7a32990d-05ca-430a-9bf4-ed0baa7ff1c4}" relid="0x2" childrelidcntr="0x0">
+							<name>Loc</name>
+							<regnode name="PartRegs" status="undefined">
+								<value></value>
+								<regnode name="Aspect" status="undefined">
+									<value></value>
+									<regnode name="Position" isopaque="yes">
+										<value>427,126</value>
+									</regnode>
+								</regnode>
+							</regnode>
+							<attribute kind="LocType">
+								<value>Committed</value>
+							</attribute>
+						</model>
+						<connection id="id-0068-00000016" kind="InINNER" role="InINNER" guid="{2a1cfc9a-0556-41b1-8c67-609ac4a119ee}" relid="0x5">
+							<name>InINNER</name>
+							<regnode name="autorouterPref" isopaque="yes">
+								<value>Ew</value>
+							</regnode>
+							<attribute kind="EdgeG" status="meta">
+								<value>IsNull</value>
+							</attribute>
+							<attribute kind="EdgeS">
+								<value>sync1?</value>
+							</attribute>
+							<attribute kind="EdgeU" status="meta">
+								<value>IsNull</value>
+							</attribute>
+							<connpoint role="src" target="id-0065-00000015"/>
+							<connpoint role="dst" target="id-0065-00000018"/>
+						</connection>
+						<connection id="id-0068-00000017" kind="InINNER" role="InINNER" guid="{3a6ce4b9-8fe6-48f9-86fa-c848fe99f95e}" relid="0x6">
+							<name>InINNER</name>
+							<regnode name="autorouterPref" isopaque="yes">
+								<value>Nn</value>
+							</regnode>
+							<attribute kind="EdgeG">
+								<value>s[did-1][2]&lt;=0</value>
+							</attribute>
+							<attribute kind="EdgeS" status="meta">
+								<value>IsNull</value>
+							</attribute>
+							<attribute kind="EdgeU" status="meta">
+								<value>IsNull</value>
+							</attribute>
+							<connpoint role="dst" target="id-0065-00000015"/>
+							<connpoint role="src" target="id-0065-00000018"/>
+						</connection>
+						<connection id="id-0068-00000018" kind="InINNER" role="InINNER" guid="{6977de1e-7a50-44e3-9476-ac2b5422c8e2}" relid="0x9">
+							<name>InINNER</name>
+							<regnode name="autorouterPref" isopaque="yes">
+								<value>Ws</value>
+							</regnode>
+							<attribute kind="EdgeG" status="meta">
+								<value>IsNull</value>
+							</attribute>
+							<attribute kind="EdgeS">
+								<value>sync2!</value>
+							</attribute>
+							<attribute kind="EdgeU">
+								<value>s[did-1][2]:=0</value>
+							</attribute>
+							<connpoint role="dst" target="id-0065-00000015"/>
+							<connpoint role="src" target="id-0065-00000016"/>
+						</connection>
+						<connection id="id-0068-00000019" kind="InINNER" role="InINNER" guid="{a9c32563-d1d8-4e40-9a83-f34727a9c3d4}" relid="0x7">
+							<name>InINNER</name>
+							<regnode name="autorouterPref" isopaque="yes">
+								<value>Ew</value>
+							</regnode>
+							<attribute kind="EdgeG" status="meta">
+								<value>IsNull</value>
+							</attribute>
+							<attribute kind="EdgeS">
+								<value>s[did-1][2]&gt;0</value>
+							</attribute>
+							<attribute kind="EdgeU">
+								<value>t:=0</value>
+							</attribute>
+							<connpoint role="dst" target="id-0065-00000017"/>
+							<connpoint role="src" target="id-0065-00000018"/>
+						</connection>
+						<connection id="id-0068-0000001a" kind="InINNER" role="InINNER" guid="{9cdd17d9-fdbe-4067-ac93-8cef2f27cd12}" relid="0x8">
+							<name>InINNER</name>
+							<regnode name="autorouterPref" isopaque="yes">
+								<value>Se</value>
+							</regnode>
+							<attribute kind="EdgeG">
+								<value>t&gt;=wt[s[did-1][0]-1][s[did-1][1]]</value>
+							</attribute>
+							<attribute kind="EdgeS" status="meta">
+								<value>IsNull</value>
+							</attribute>
+							<attribute kind="EdgeU" status="meta">
+								<value>IsNull</value>
+							</attribute>
+							<connpoint role="dst" target="id-0065-00000016"/>
+							<connpoint role="src" target="id-0065-00000017"/>
+						</connection>
+					</model>
+				</model>
+				<model id="id-0065-00000009" kind="AllDevices" role="AllDevices" guid="{6bb5eac4-538f-43b6-9349-1ba70a2b662f}" relid="0x5" childrelidcntr="0x1">
+					<name>Device3</name>
+					<regnode name="PartRegs" status="undefined">
+						<value></value>
+						<regnode name="Aspect" status="undefined">
+							<value></value>
+							<regnode name="Position" isopaque="yes">
+								<value>448,105</value>
+							</regnode>
+						</regnode>
+					</regnode>
+					<model id="id-0065-00000019" kind="Inner" role="Inner" guid="{922f2d7f-5e5c-455a-82f8-4112baa8b446}" relid="0x1" childrelidcntr="0x9">
+						<name>Inner</name>
+						<regnode name="PartRegs" status="undefined">
+							<value></value>
+							<regnode name="Aspect" status="undefined">
+								<value></value>
+								<regnode name="Position" isopaque="yes">
+									<value>161,77</value>
+								</regnode>
+							</regnode>
+						</regnode>
+						<model id="id-0065-0000001a" kind="Loc" role="Loc" guid="{3955acd7-f17b-4cd7-b643-92fcbd46c599}" relid="0x1" childrelidcntr="0x0">
+							<name>Loc</name>
+							<regnode name="PartRegs" status="undefined">
+								<value></value>
+								<regnode name="Aspect" status="undefined">
+									<value></value>
+									<regnode name="Position" isopaque="yes">
+										<value>175,126</value>
+									</regnode>
+								</regnode>
+							</regnode>
+							<attribute kind="LocType">
+								<value>Init</value>
+							</attribute>
+						</model>
+						<model id="id-0065-0000001b" kind="Loc" role="Loc" guid="{f677796a-d7d5-43e4-bbb4-03421409779a}" relid="0x4" childrelidcntr="0x0">
+							<name>Loc</name>
+							<regnode name="PartRegs" status="undefined">
+								<value></value>
+								<regnode name="Aspect" status="undefined">
+									<value></value>
+									<regnode name="Position" isopaque="yes">
+										<value>413,329</value>
+									</regnode>
+								</regnode>
+							</regnode>
+							<attribute kind="LocType">
+								<value>Committed</value>
+							</attribute>
+						</model>
+						<model id="id-0065-0000001c" kind="Loc" role="Loc" guid="{e01cb5ee-219a-47da-86fb-b734fb242347}" relid="0x3" childrelidcntr="0x0">
+							<name>Loc</name>
+							<regnode name="PartRegs" status="undefined">
+								<value></value>
+								<regnode name="Aspect" status="undefined">
+									<value></value>
+									<regnode name="Position" isopaque="yes">
+										<value>693,119</value>
+									</regnode>
+								</regnode>
+							</regnode>
+							<attribute kind="LocType" status="meta">
+								<value>IsNull</value>
+							</attribute>
+						</model>
+						<model id="id-0065-0000001d" kind="Loc" role="Loc" guid="{6c37f3ca-70df-4a3d-b0dd-cccc10ec2c16}" relid="0x2" childrelidcntr="0x0">
+							<name>Loc</name>
+							<regnode name="PartRegs" status="undefined">
+								<value></value>
+								<regnode name="Aspect" status="undefined">
+									<value></value>
+									<regnode name="Position" isopaque="yes">
+										<value>427,126</value>
+									</regnode>
+								</regnode>
+							</regnode>
+							<attribute kind="LocType">
+								<value>Committed</value>
+							</attribute>
+						</model>
+						<connection id="id-0068-0000001b" kind="InINNER" role="InINNER" guid="{974db1a7-83a7-4695-8655-896bc7fd7ed3}" relid="0x5">
+							<name>InINNER</name>
+							<regnode name="autorouterPref" isopaque="yes">
+								<value>Ew</value>
+							</regnode>
+							<attribute kind="EdgeG" status="meta">
+								<value>IsNull</value>
+							</attribute>
+							<attribute kind="EdgeS">
+								<value>sync1?</value>
+							</attribute>
+							<attribute kind="EdgeU" status="meta">
+								<value>IsNull</value>
+							</attribute>
+							<connpoint role="src" target="id-0065-0000001a"/>
+							<connpoint role="dst" target="id-0065-0000001d"/>
+						</connection>
+						<connection id="id-0068-0000001c" kind="InINNER" role="InINNER" guid="{92c5d48a-e09c-45ad-8b7f-431603464981}" relid="0x6">
+							<name>InINNER</name>
+							<regnode name="autorouterPref" isopaque="yes">
+								<value>Nn</value>
+							</regnode>
+							<attribute kind="EdgeG">
+								<value>s[did-1][2]&lt;=0</value>
+							</attribute>
+							<attribute kind="EdgeS" status="meta">
+								<value>IsNull</value>
+							</attribute>
+							<attribute kind="EdgeU" status="meta">
+								<value>IsNull</value>
+							</attribute>
+							<connpoint role="dst" target="id-0065-0000001a"/>
+							<connpoint role="src" target="id-0065-0000001d"/>
+						</connection>
+						<connection id="id-0068-0000001d" kind="InINNER" role="InINNER" guid="{226f711d-56de-4457-b20d-9e4c7a4b46ef}" relid="0x9">
+							<name>InINNER</name>
+							<regnode name="autorouterPref" isopaque="yes">
+								<value>Ws</value>
+							</regnode>
+							<attribute kind="EdgeG" status="meta">
+								<value>IsNull</value>
+							</attribute>
+							<attribute kind="EdgeS">
+								<value>sync2!</value>
+							</attribute>
+							<attribute kind="EdgeU">
+								<value>s[did-1][2]:=0</value>
+							</attribute>
+							<connpoint role="dst" target="id-0065-0000001a"/>
+							<connpoint role="src" target="id-0065-0000001b"/>
+						</connection>
+						<connection id="id-0068-0000001e" kind="InINNER" role="InINNER" guid="{c33665d5-e853-4433-ba05-22edefedb2fc}" relid="0x7">
+							<name>InINNER</name>
+							<regnode name="autorouterPref" isopaque="yes">
+								<value>Ew</value>
+							</regnode>
+							<attribute kind="EdgeG" status="meta">
+								<value>IsNull</value>
+							</attribute>
+							<attribute kind="EdgeS">
+								<value>s[did-1][2]&gt;0</value>
+							</attribute>
+							<attribute kind="EdgeU">
+								<value>t:=0</value>
+							</attribute>
+							<connpoint role="dst" target="id-0065-0000001c"/>
+							<connpoint role="src" target="id-0065-0000001d"/>
+						</connection>
+						<connection id="id-0068-0000001f" kind="InINNER" role="InINNER" guid="{c9f4c294-c07e-4a24-a5a0-89c22dd6d5bd}" relid="0x8">
+							<name>InINNER</name>
+							<regnode name="autorouterPref" isopaque="yes">
+								<value>Se</value>
+							</regnode>
+							<attribute kind="EdgeG">
+								<value>t&gt;=wt[s[did-1][0]-1][s[did-1][1]]</value>
+							</attribute>
+							<attribute kind="EdgeS" status="meta">
+								<value>IsNull</value>
+							</attribute>
+							<attribute kind="EdgeU" status="meta">
+								<value>IsNull</value>
+							</attribute>
+							<connpoint role="dst" target="id-0065-0000001b"/>
+							<connpoint role="src" target="id-0065-0000001c"/>
+						</connection>
+					</model>
+				</model>
+				<model id="id-0065-0000000a" kind="AllDevices" role="AllDevices" guid="{fde492a9-dd9b-4d88-9f7f-6ba8f04b780f}" relid="0x6" childrelidcntr="0x1">
+					<name>Device4</name>
+					<regnode name="PartRegs" status="undefined">
+						<value></value>
+						<regnode name="Aspect" status="undefined">
+							<value></value>
+							<regnode name="Position" isopaque="yes">
+								<value>630,105</value>
+							</regnode>
+						</regnode>
+					</regnode>
+					<model id="id-0065-0000001e" kind="Inner" role="Inner" guid="{9f17db30-da72-45fb-ab9f-c3b4121447bd}" relid="0x1" childrelidcntr="0x9">
+						<name>Inner</name>
+						<regnode name="PartRegs" status="undefined">
+							<value></value>
+							<regnode name="Aspect" status="undefined">
+								<value></value>
+								<regnode name="Position" isopaque="yes">
+									<value>161,77</value>
+								</regnode>
+							</regnode>
+						</regnode>
+						<model id="id-0065-0000001f" kind="Loc" role="Loc" guid="{1466bd0d-04ab-4c4f-8917-803fbbc5462d}" relid="0x2" childrelidcntr="0x0">
+							<name>Loc</name>
+							<regnode name="PartRegs" status="undefined">
+								<value></value>
+								<regnode name="Aspect" status="undefined">
+									<value></value>
+									<regnode name="Position" isopaque="yes">
+										<value>427,126</value>
+									</regnode>
+								</regnode>
+							</regnode>
+							<attribute kind="LocType">
+								<value>Committed</value>
+							</attribute>
+						</model>
+						<model id="id-0065-00000020" kind="Loc" role="Loc" guid="{00d1a894-c9fa-4f52-8edb-d69194c7102f}" relid="0x1" childrelidcntr="0x0">
+							<name>Loc</name>
+							<regnode name="PartRegs" status="undefined">
+								<value></value>
+								<regnode name="Aspect" status="undefined">
+									<value></value>
+									<regnode name="Position" isopaque="yes">
+										<value>175,126</value>
+									</regnode>
+								</regnode>
+							</regnode>
+							<attribute kind="LocType">
+								<value>Init</value>
+							</attribute>
+						</model>
+						<model id="id-0065-00000021" kind="Loc" role="Loc" guid="{95cd8109-bf52-491d-af27-d7e61a1f7cb3}" relid="0x4" childrelidcntr="0x0">
+							<name>Loc</name>
+							<regnode name="PartRegs" status="undefined">
+								<value></value>
+								<regnode name="Aspect" status="undefined">
+									<value></value>
+									<regnode name="Position" isopaque="yes">
+										<value>413,329</value>
+									</regnode>
+								</regnode>
+							</regnode>
+							<attribute kind="LocType">
+								<value>Committed</value>
+							</attribute>
+						</model>
+						<model id="id-0065-00000022" kind="Loc" role="Loc" guid="{3fd5983d-fc90-4712-ab9d-095479c770e6}" relid="0x3" childrelidcntr="0x0">
+							<name>Loc</name>
+							<regnode name="PartRegs" status="undefined">
+								<value></value>
+								<regnode name="Aspect" status="undefined">
+									<value></value>
+									<regnode name="Position" isopaque="yes">
+										<value>693,119</value>
+									</regnode>
+								</regnode>
+							</regnode>
+							<attribute kind="LocType" status="meta">
+								<value>IsNull</value>
+							</attribute>
+						</model>
+						<connection id="id-0068-00000020" kind="InINNER" role="InINNER" guid="{c9f67971-08fb-4aa8-9e27-ca847c0a6530}" relid="0x5">
+							<name>InINNER</name>
+							<regnode name="autorouterPref" isopaque="yes">
+								<value>Ew</value>
+							</regnode>
+							<attribute kind="EdgeG" status="meta">
+								<value>IsNull</value>
+							</attribute>
+							<attribute kind="EdgeS">
+								<value>sync1?</value>
+							</attribute>
+							<attribute kind="EdgeU" status="meta">
+								<value>IsNull</value>
+							</attribute>
+							<connpoint role="dst" target="id-0065-0000001f"/>
+							<connpoint role="src" target="id-0065-00000020"/>
+						</connection>
+						<connection id="id-0068-00000021" kind="InINNER" role="InINNER" guid="{e0880a07-86b7-4102-bf6b-c634d5a1b61e}" relid="0x6">
+							<name>InINNER</name>
+							<regnode name="autorouterPref" isopaque="yes">
+								<value>Nn</value>
+							</regnode>
+							<attribute kind="EdgeG">
+								<value>s[did-1][2]&lt;=0</value>
+							</attribute>
+							<attribute kind="EdgeS" status="meta">
+								<value>IsNull</value>
+							</attribute>
+							<attribute kind="EdgeU" status="meta">
+								<value>IsNull</value>
+							</attribute>
+							<connpoint role="src" target="id-0065-0000001f"/>
+							<connpoint role="dst" target="id-0065-00000020"/>
+						</connection>
+						<connection id="id-0068-00000022" kind="InINNER" role="InINNER" guid="{2bbc7fb5-5825-403c-a7d1-a1534cab2775}" relid="0x9">
+							<name>InINNER</name>
+							<regnode name="autorouterPref" isopaque="yes">
+								<value>Ws</value>
+							</regnode>
+							<attribute kind="EdgeG" status="meta">
+								<value>IsNull</value>
+							</attribute>
+							<attribute kind="EdgeS">
+								<value>sync2!</value>
+							</attribute>
+							<attribute kind="EdgeU">
+								<value>s[did-1][2]:=0</value>
+							</attribute>
+							<connpoint role="dst" target="id-0065-00000020"/>
+							<connpoint role="src" target="id-0065-00000021"/>
+						</connection>
+						<connection id="id-0068-00000023" kind="InINNER" role="InINNER" guid="{6e098095-b29f-4d40-8f4d-d1a1b8168852}" relid="0x7">
+							<name>InINNER</name>
+							<regnode name="autorouterPref" isopaque="yes">
+								<value>Ew</value>
+							</regnode>
+							<attribute kind="EdgeG" status="meta">
+								<value>IsNull</value>
+							</attribute>
+							<attribute kind="EdgeS">
+								<value>s[did-1][2]&gt;0</value>
+							</attribute>
+							<attribute kind="EdgeU">
+								<value>t:=0</value>
+							</attribute>
+							<connpoint role="src" target="id-0065-0000001f"/>
+							<connpoint role="dst" target="id-0065-00000022"/>
+						</connection>
+						<connection id="id-0068-00000024" kind="InINNER" role="InINNER" guid="{0ef2bf7c-edfd-4153-88d2-7850a91de736}" relid="0x8">
+							<name>InINNER</name>
+							<regnode name="autorouterPref" isopaque="yes">
+								<value>Se</value>
+							</regnode>
+							<attribute kind="EdgeG">
+								<value>t&gt;=wt[s[did-1][0]-1][s[did-1][1]]</value>
+							</attribute>
+							<attribute kind="EdgeS" status="meta">
+								<value>IsNull</value>
+							</attribute>
+							<attribute kind="EdgeU" status="meta">
+								<value>IsNull</value>
+							</attribute>
+							<connpoint role="dst" target="id-0065-00000021"/>
+							<connpoint role="src" target="id-0065-00000022"/>
+						</connection>
+					</model>
+				</model>
+				<model id="id-0065-0000000b" kind="AllDevices" role="AllDevices" guid="{549c40b3-4af1-4eba-a0ce-a38e15fa96d5}" relid="0x7" childrelidcntr="0x1">
+					<name>Device7</name>
+					<regnode name="PartRegs" status="undefined">
+						<value></value>
+						<regnode name="Aspect" status="undefined">
+							<value></value>
+							<regnode name="Position" isopaque="yes">
+								<value>238,273</value>
+							</regnode>
+						</regnode>
+					</regnode>
+					<model id="id-0065-0000002d" kind="Inner" role="Inner" guid="{ab74c97c-18b3-4635-94f4-27515344b89a}" relid="0x1" childrelidcntr="0x9">
+						<name>Inner</name>
+						<regnode name="PartRegs" status="undefined">
+							<value></value>
+							<regnode name="Aspect" status="undefined">
+								<value></value>
+								<regnode name="Position" isopaque="yes">
+									<value>161,77</value>
+								</regnode>
+							</regnode>
+						</regnode>
+						<model id="id-0065-0000002e" kind="Loc" role="Loc" guid="{e6a1070a-7a0b-43b3-84f9-265d55bab38d}" relid="0x2" childrelidcntr="0x0">
+							<name>Loc</name>
+							<regnode name="PartRegs" status="undefined">
+								<value></value>
+								<regnode name="Aspect" status="undefined">
+									<value></value>
+									<regnode name="Position" isopaque="yes">
+										<value>427,126</value>
+									</regnode>
+								</regnode>
+							</regnode>
+							<attribute kind="LocType">
+								<value>Committed</value>
+							</attribute>
+						</model>
+						<model id="id-0065-0000002f" kind="Loc" role="Loc" guid="{5382f2cf-4eba-4c88-9ffc-3f394fa695d3}" relid="0x3" childrelidcntr="0x0">
+							<name>Loc</name>
+							<regnode name="PartRegs" status="undefined">
+								<value></value>
+								<regnode name="Aspect" status="undefined">
+									<value></value>
+									<regnode name="Position" isopaque="yes">
+										<value>693,119</value>
+									</regnode>
+								</regnode>
+							</regnode>
+							<attribute kind="LocType" status="meta">
+								<value>IsNull</value>
+							</attribute>
+						</model>
+						<model id="id-0065-00000030" kind="Loc" role="Loc" guid="{120bc044-fae1-40f7-ad2c-88f5ff0834ba}" relid="0x1" childrelidcntr="0x0">
+							<name>Loc</name>
+							<regnode name="PartRegs" status="undefined">
+								<value></value>
+								<regnode name="Aspect" status="undefined">
+									<value></value>
+									<regnode name="Position" isopaque="yes">
+										<value>175,126</value>
+									</regnode>
+								</regnode>
+							</regnode>
+							<attribute kind="LocType">
+								<value>Init</value>
+							</attribute>
+						</model>
+						<model id="id-0065-00000031" kind="Loc" role="Loc" guid="{dec5ee4c-6379-4e6a-bc9a-e2460270b3be}" relid="0x4" childrelidcntr="0x0">
+							<name>Loc</name>
+							<regnode name="PartRegs" status="undefined">
+								<value></value>
+								<regnode name="Aspect" status="undefined">
+									<value></value>
+									<regnode name="Position" isopaque="yes">
+										<value>413,329</value>
+									</regnode>
+								</regnode>
+							</regnode>
+							<attribute kind="LocType">
+								<value>Committed</value>
+							</attribute>
+						</model>
+						<connection id="id-0068-0000002f" kind="InINNER" role="InINNER" guid="{04aa6643-eebe-4961-8fec-b9d590e5728e}" relid="0x5">
+							<name>InINNER</name>
+							<regnode name="autorouterPref" isopaque="yes">
+								<value>Ew</value>
+							</regnode>
+							<attribute kind="EdgeG" status="meta">
+								<value>IsNull</value>
+							</attribute>
+							<attribute kind="EdgeS">
+								<value>sync1?</value>
+							</attribute>
+							<attribute kind="EdgeU" status="meta">
+								<value>IsNull</value>
+							</attribute>
+							<connpoint role="dst" target="id-0065-0000002e"/>
+							<connpoint role="src" target="id-0065-00000030"/>
+						</connection>
+						<connection id="id-0068-00000030" kind="InINNER" role="InINNER" guid="{94cbe041-baf9-48cf-83d0-6abea541db4d}" relid="0x6">
+							<name>InINNER</name>
+							<regnode name="autorouterPref" isopaque="yes">
+								<value>Nn</value>
+							</regnode>
+							<attribute kind="EdgeG">
+								<value>s[did-1][2]&lt;=0</value>
+							</attribute>
+							<attribute kind="EdgeS" status="meta">
+								<value>IsNull</value>
+							</attribute>
+							<attribute kind="EdgeU" status="meta">
+								<value>IsNull</value>
+							</attribute>
+							<connpoint role="src" target="id-0065-0000002e"/>
+							<connpoint role="dst" target="id-0065-00000030"/>
+						</connection>
+						<connection id="id-0068-00000031" kind="InINNER" role="InINNER" guid="{21776c75-3b56-44b8-983b-c5a9f5fc7bc5}" relid="0x7">
+							<name>InINNER</name>
+							<regnode name="autorouterPref" isopaque="yes">
+								<value>Ew</value>
+							</regnode>
+							<attribute kind="EdgeG" status="meta">
+								<value>IsNull</value>
+							</attribute>
+							<attribute kind="EdgeS">
+								<value>s[did-1][2]&gt;0</value>
+							</attribute>
+							<attribute kind="EdgeU">
+								<value>t:=0</value>
+							</attribute>
+							<connpoint role="src" target="id-0065-0000002e"/>
+							<connpoint role="dst" target="id-0065-0000002f"/>
+						</connection>
+						<connection id="id-0068-00000032" kind="InINNER" role="InINNER" guid="{f30fc5c9-eb7a-4e1c-8f6d-a395dd8e9bd1}" relid="0x9">
+							<name>InINNER</name>
+							<regnode name="autorouterPref" isopaque="yes">
+								<value>Ws</value>
+							</regnode>
+							<attribute kind="EdgeG" status="meta">
+								<value>IsNull</value>
+							</attribute>
+							<attribute kind="EdgeS">
+								<value>sync2!</value>
+							</attribute>
+							<attribute kind="EdgeU">
+								<value>s[did-1][2]:=0</value>
+							</attribute>
+							<connpoint role="dst" target="id-0065-00000030"/>
+							<connpoint role="src" target="id-0065-00000031"/>
+						</connection>
+						<connection id="id-0068-00000033" kind="InINNER" role="InINNER" guid="{d216c216-7567-4aa2-b4ae-0f1d21f24d38}" relid="0x8">
+							<name>InINNER</name>
+							<regnode name="autorouterPref" isopaque="yes">
+								<value>Se</value>
+							</regnode>
+							<attribute kind="EdgeG">
+								<value>t&gt;=wt[s[did-1][0]-1][s[did-1][1]]</value>
+							</attribute>
+							<attribute kind="EdgeS" status="meta">
+								<value>IsNull</value>
+							</attribute>
+							<attribute kind="EdgeU" status="meta">
+								<value>IsNull</value>
+							</attribute>
+							<connpoint role="src" target="id-0065-0000002f"/>
+							<connpoint role="dst" target="id-0065-00000031"/>
+						</connection>
+					</model>
+				</model>
+				<model id="id-0065-0000000c" kind="AllDevices" role="AllDevices" guid="{521741fe-f472-43dd-981c-cb1e7a759b60}" relid="0x8" childrelidcntr="0x1">
+					<name>Device5</name>
+					<regnode name="PartRegs" status="undefined">
+						<value></value>
+						<regnode name="Aspect" status="undefined">
+							<value></value>
+							<regnode name="Position" isopaque="yes">
+								<value>630,273</value>
+							</regnode>
+						</regnode>
+					</regnode>
+					<model id="id-0065-00000023" kind="Inner" role="Inner" guid="{91abe6ec-3152-4306-ae10-c89d0b81d49f}" relid="0x1" childrelidcntr="0x9">
+						<name>Inner</name>
+						<regnode name="PartRegs" status="undefined">
+							<value></value>
+							<regnode name="Aspect" status="undefined">
+								<value></value>
+								<regnode name="Position" isopaque="yes">
+									<value>161,77</value>
+								</regnode>
+							</regnode>
+						</regnode>
+						<model id="id-0065-00000024" kind="Loc" role="Loc" guid="{d08180c1-6b61-4339-967d-0d9b4d6a5cc6}" relid="0x2" childrelidcntr="0x0">
+							<name>Loc</name>
+							<regnode name="PartRegs" status="undefined">
+								<value></value>
+								<regnode name="Aspect" status="undefined">
+									<value></value>
+									<regnode name="Position" isopaque="yes">
+										<value>427,126</value>
+									</regnode>
+								</regnode>
+							</regnode>
+							<attribute kind="LocType">
+								<value>Committed</value>
+							</attribute>
+						</model>
+						<model id="id-0065-00000025" kind="Loc" role="Loc" guid="{b0e5be31-c4a3-41ad-bb91-9ca0a368ef7d}" relid="0x1" childrelidcntr="0x0">
+							<name>Loc</name>
+							<regnode name="PartRegs" status="undefined">
+								<value></value>
+								<regnode name="Aspect" status="undefined">
+									<value></value>
+									<regnode name="Position" isopaque="yes">
+										<value>175,126</value>
+									</regnode>
+								</regnode>
+							</regnode>
+							<attribute kind="LocType">
+								<value>Init</value>
+							</attribute>
+						</model>
+						<model id="id-0065-00000026" kind="Loc" role="Loc" guid="{8b76f8c2-be57-4358-9f1c-f9bd3eabf0bc}" relid="0x4" childrelidcntr="0x0">
+							<name>Loc</name>
+							<regnode name="PartRegs" status="undefined">
+								<value></value>
+								<regnode name="Aspect" status="undefined">
+									<value></value>
+									<regnode name="Position" isopaque="yes">
+										<value>413,329</value>
+									</regnode>
+								</regnode>
+							</regnode>
+							<attribute kind="LocType">
+								<value>Committed</value>
+							</attribute>
+						</model>
+						<model id="id-0065-00000027" kind="Loc" role="Loc" guid="{9f689484-792e-4a15-8445-ec03dc9f0f23}" relid="0x3" childrelidcntr="0x0">
+							<name>Loc</name>
+							<regnode name="PartRegs" status="undefined">
+								<value></value>
+								<regnode name="Aspect" status="undefined">
+									<value></value>
+									<regnode name="Position" isopaque="yes">
+										<value>693,119</value>
+									</regnode>
+								</regnode>
+							</regnode>
+							<attribute kind="LocType" status="meta">
+								<value>IsNull</value>
+							</attribute>
+						</model>
+						<connection id="id-0068-00000025" kind="InINNER" role="InINNER" guid="{125d07bc-047e-4969-86a5-aef93e36f421}" relid="0x5">
+							<name>InINNER</name>
+							<regnode name="autorouterPref" isopaque="yes">
+								<value>Ew</value>
+							</regnode>
+							<attribute kind="EdgeG" status="meta">
+								<value>IsNull</value>
+							</attribute>
+							<attribute kind="EdgeS">
+								<value>sync1?</value>
+							</attribute>
+							<attribute kind="EdgeU" status="meta">
+								<value>IsNull</value>
+							</attribute>
+							<connpoint role="dst" target="id-0065-00000024"/>
+							<connpoint role="src" target="id-0065-00000025"/>
+						</connection>
+						<connection id="id-0068-00000026" kind="InINNER" role="InINNER" guid="{e9d3eed5-5a52-472d-be30-2d99bbb2e892}" relid="0x6">
+							<name>InINNER</name>
+							<regnode name="autorouterPref" isopaque="yes">
+								<value>Nn</value>
+							</regnode>
+							<attribute kind="EdgeG">
+								<value>s[did-1][2]&lt;=0</value>
+							</attribute>
+							<attribute kind="EdgeS" status="meta">
+								<value>IsNull</value>
+							</attribute>
+							<attribute kind="EdgeU" status="meta">
+								<value>IsNull</value>
+							</attribute>
+							<connpoint role="src" target="id-0065-00000024"/>
+							<connpoint role="dst" target="id-0065-00000025"/>
+						</connection>
+						<connection id="id-0068-00000027" kind="InINNER" role="InINNER" guid="{b63e19f2-a6ca-465e-ba1a-86bacfebab80}" relid="0x9">
+							<name>InINNER</name>
+							<regnode name="autorouterPref" isopaque="yes">
+								<value>Ws</value>
+							</regnode>
+							<attribute kind="EdgeG" status="meta">
+								<value>IsNull</value>
+							</attribute>
+							<attribute kind="EdgeS">
+								<value>sync2!</value>
+							</attribute>
+							<attribute kind="EdgeU">
+								<value>s[did-1][2]:=0</value>
+							</attribute>
+							<connpoint role="dst" target="id-0065-00000025"/>
+							<connpoint role="src" target="id-0065-00000026"/>
+						</connection>
+						<connection id="id-0068-00000028" kind="InINNER" role="InINNER" guid="{d16a45c5-467c-4cb9-9aee-db4b919261dd}" relid="0x7">
+							<name>InINNER</name>
+							<regnode name="autorouterPref" isopaque="yes">
+								<value>Ew</value>
+							</regnode>
+							<attribute kind="EdgeG" status="meta">
+								<value>IsNull</value>
+							</attribute>
+							<attribute kind="EdgeS">
+								<value>s[did-1][2]&gt;0</value>
+							</attribute>
+							<attribute kind="EdgeU">
+								<value>t:=0</value>
+							</attribute>
+							<connpoint role="src" target="id-0065-00000024"/>
+							<connpoint role="dst" target="id-0065-00000027"/>
+						</connection>
+						<connection id="id-0068-00000029" kind="InINNER" role="InINNER" guid="{f6e67a75-eae5-49cf-8374-891a5c8bc752}" relid="0x8">
+							<name>InINNER</name>
+							<regnode name="autorouterPref" isopaque="yes">
+								<value>Se</value>
+							</regnode>
+							<attribute kind="EdgeG">
+								<value>t&gt;=wt[s[did-1][0]-1][s[did-1][1]]</value>
+							</attribute>
+							<attribute kind="EdgeS" status="meta">
+								<value>IsNull</value>
+							</attribute>
+							<attribute kind="EdgeU" status="meta">
+								<value>IsNull</value>
+							</attribute>
+							<connpoint role="dst" target="id-0065-00000026"/>
+							<connpoint role="src" target="id-0065-00000027"/>
+						</connection>
+					</model>
+				</model>
+				<model id="id-0065-0000000d" kind="AllDevices" role="AllDevices" guid="{6f0cf206-c939-40a3-8238-f511583589da}" relid="0x9" childrelidcntr="0x1">
+					<name>Device8</name>
+					<regnode name="PartRegs" status="undefined">
+						<value></value>
+						<regnode name="Aspect" status="undefined">
+							<value></value>
+							<regnode name="Position" isopaque="yes">
+								<value>28,273</value>
+							</regnode>
+						</regnode>
+					</regnode>
+					<model id="id-0065-00000032" kind="Inner" role="Inner" guid="{426c83d1-93f3-44e3-974e-da1287a61da2}" relid="0x1" childrelidcntr="0x9">
+						<name>Inner</name>
+						<regnode name="PartRegs" status="undefined">
+							<value></value>
+							<regnode name="Aspect" status="undefined">
+								<value></value>
+								<regnode name="Position" isopaque="yes">
+									<value>161,77</value>
+								</regnode>
+							</regnode>
+						</regnode>
+						<model id="id-0065-00000033" kind="Loc" role="Loc" guid="{76eba916-4d1d-4088-829e-2d1e4fd5d7f9}" relid="0x2" childrelidcntr="0x0">
+							<name>Loc</name>
+							<regnode name="PartRegs" status="undefined">
+								<value></value>
+								<regnode name="Aspect" status="undefined">
+									<value></value>
+									<regnode name="Position" isopaque="yes">
+										<value>427,126</value>
+									</regnode>
+								</regnode>
+							</regnode>
+							<attribute kind="LocType">
+								<value>Committed</value>
+							</attribute>
+						</model>
+						<model id="id-0065-00000034" kind="Loc" role="Loc" guid="{8149cd06-e2a6-4579-b690-b92c30dddb1d}" relid="0x3" childrelidcntr="0x0">
+							<name>Loc</name>
+							<regnode name="PartRegs" status="undefined">
+								<value></value>
+								<regnode name="Aspect" status="undefined">
+									<value></value>
+									<regnode name="Position" isopaque="yes">
+										<value>693,119</value>
+									</regnode>
+								</regnode>
+							</regnode>
+							<attribute kind="LocType" status="meta">
+								<value>IsNull</value>
+							</attribute>
+						</model>
+						<model id="id-0065-00000035" kind="Loc" role="Loc" guid="{c29f6dd7-284f-471f-bd02-d27fe88b8783}" relid="0x1" childrelidcntr="0x0">
+							<name>Loc</name>
+							<regnode name="PartRegs" status="undefined">
+								<value></value>
+								<regnode name="Aspect" status="undefined">
+									<value></value>
+									<regnode name="Position" isopaque="yes">
+										<value>175,126</value>
+									</regnode>
+								</regnode>
+							</regnode>
+							<attribute kind="LocType">
+								<value>Init</value>
+							</attribute>
+						</model>
+						<model id="id-0065-00000036" kind="Loc" role="Loc" guid="{8253484e-29f3-4fb8-a0b3-cbdc59970bec}" relid="0x4" childrelidcntr="0x0">
+							<name>Loc</name>
+							<regnode name="PartRegs" status="undefined">
+								<value></value>
+								<regnode name="Aspect" status="undefined">
+									<value></value>
+									<regnode name="Position" isopaque="yes">
+										<value>413,329</value>
+									</regnode>
+								</regnode>
+							</regnode>
+							<attribute kind="LocType">
+								<value>Committed</value>
+							</attribute>
+						</model>
+						<connection id="id-0068-00000034" kind="InINNER" role="InINNER" guid="{905ecba5-baf1-486c-b61d-4aed0242064b}" relid="0x5">
+							<name>InINNER</name>
+							<regnode name="autorouterPref" isopaque="yes">
+								<value>Ew</value>
+							</regnode>
+							<attribute kind="EdgeG" status="meta">
+								<value>IsNull</value>
+							</attribute>
+							<attribute kind="EdgeS">
+								<value>sync1?</value>
+							</attribute>
+							<attribute kind="EdgeU" status="meta">
+								<value>IsNull</value>
+							</attribute>
+							<connpoint role="dst" target="id-0065-00000033"/>
+							<connpoint role="src" target="id-0065-00000035"/>
+						</connection>
+						<connection id="id-0068-00000035" kind="InINNER" role="InINNER" guid="{81de457e-159f-4b38-90eb-c559808b8884}" relid="0x6">
+							<name>InINNER</name>
+							<regnode name="autorouterPref" isopaque="yes">
+								<value>Nn</value>
+							</regnode>
+							<attribute kind="EdgeG">
+								<value>s[did-1][2]&lt;=0</value>
+							</attribute>
+							<attribute kind="EdgeS" status="meta">
+								<value>IsNull</value>
+							</attribute>
+							<attribute kind="EdgeU" status="meta">
+								<value>IsNull</value>
+							</attribute>
+							<connpoint role="src" target="id-0065-00000033"/>
+							<connpoint role="dst" target="id-0065-00000035"/>
+						</connection>
+						<connection id="id-0068-00000036" kind="InINNER" role="InINNER" guid="{a277ff73-e523-4cec-9ae6-fe5a2a680d53}" relid="0x7">
+							<name>InINNER</name>
+							<regnode name="autorouterPref" isopaque="yes">
+								<value>Ew</value>
+							</regnode>
+							<attribute kind="EdgeG" status="meta">
+								<value>IsNull</value>
+							</attribute>
+							<attribute kind="EdgeS">
+								<value>s[did-1][2]&gt;0</value>
+							</attribute>
+							<attribute kind="EdgeU">
+								<value>t:=0</value>
+							</attribute>
+							<connpoint role="src" target="id-0065-00000033"/>
+							<connpoint role="dst" target="id-0065-00000034"/>
+						</connection>
+						<connection id="id-0068-00000037" kind="InINNER" role="InINNER" guid="{62e404ff-7879-49e1-b058-5d3997d74a2e}" relid="0x8">
+							<name>InINNER</name>
+							<regnode name="autorouterPref" isopaque="yes">
+								<value>Se</value>
+							</regnode>
+							<attribute kind="EdgeG">
+								<value>t&gt;=wt[s[did-1][0]-1][s[did-1][1]]</value>
+							</attribute>
+							<attribute kind="EdgeS" status="meta">
+								<value>IsNull</value>
+							</attribute>
+							<attribute kind="EdgeU" status="meta">
+								<value>IsNull</value>
+							</attribute>
+							<connpoint role="src" target="id-0065-00000034"/>
+							<connpoint role="dst" target="id-0065-00000036"/>
+						</connection>
+						<connection id="id-0068-00000038" kind="InINNER" role="InINNER" guid="{2beb2a90-fbe7-413e-bb4b-6e56e4fd9374}" relid="0x9">
+							<name>InINNER</name>
+							<regnode name="autorouterPref" isopaque="yes">
+								<value>Ws</value>
+							</regnode>
+							<attribute kind="EdgeG" status="meta">
+								<value>IsNull</value>
+							</attribute>
+							<attribute kind="EdgeS">
+								<value>sync2!</value>
+							</attribute>
+							<attribute kind="EdgeU">
+								<value>s[did-1][2]:=0</value>
+							</attribute>
+							<connpoint role="dst" target="id-0065-00000035"/>
+							<connpoint role="src" target="id-0065-00000036"/>
+						</connection>
+					</model>
+				</model>
+				<model id="id-0065-0000000e" kind="AllDevices" role="AllDevices" guid="{72a38bdb-96e4-44e8-a014-da2b0686a38e}" relid="0xa" childrelidcntr="0x1">
+					<name>Device6</name>
+					<regnode name="PartRegs" status="undefined">
+						<value></value>
+						<regnode name="Aspect" status="undefined">
+							<value></value>
+							<regnode name="Position" isopaque="yes">
+								<value>441,273</value>
+							</regnode>
+						</regnode>
+					</regnode>
+					<model id="id-0065-00000028" kind="Inner" role="Inner" guid="{cd57b28a-f996-4098-afad-b3b187f02724}" relid="0x1" childrelidcntr="0x9">
+						<name>Inner</name>
+						<regnode name="PartRegs" status="undefined">
+							<value></value>
+							<regnode name="Aspect" status="undefined">
+								<value></value>
+								<regnode name="Position" isopaque="yes">
+									<value>161,77</value>
+								</regnode>
+							</regnode>
+						</regnode>
+						<model id="id-0065-00000029" kind="Loc" role="Loc" guid="{dddad48f-6a10-471c-addb-410a4235cfc6}" relid="0x2" childrelidcntr="0x0">
+							<name>Loc</name>
+							<regnode name="PartRegs" status="undefined">
+								<value></value>
+								<regnode name="Aspect" status="undefined">
+									<value></value>
+									<regnode name="Position" isopaque="yes">
+										<value>427,126</value>
+									</regnode>
+								</regnode>
+							</regnode>
+							<attribute kind="LocType">
+								<value>Committed</value>
+							</attribute>
+						</model>
+						<model id="id-0065-0000002a" kind="Loc" role="Loc" guid="{c08c3561-e90f-48d6-b8eb-de18aa05f097}" relid="0x1" childrelidcntr="0x0">
+							<name>Loc</name>
+							<regnode name="PartRegs" status="undefined">
+								<value></value>
+								<regnode name="Aspect" status="undefined">
+									<value></value>
+									<regnode name="Position" isopaque="yes">
+										<value>175,126</value>
+									</regnode>
+								</regnode>
+							</regnode>
+							<attribute kind="LocType">
+								<value>Init</value>
+							</attribute>
+						</model>
+						<model id="id-0065-0000002b" kind="Loc" role="Loc" guid="{97269db8-2707-4a3c-aff5-814c5d92fd8e}" relid="0x4" childrelidcntr="0x0">
+							<name>Loc</name>
+							<regnode name="PartRegs" status="undefined">
+								<value></value>
+								<regnode name="Aspect" status="undefined">
+									<value></value>
+									<regnode name="Position" isopaque="yes">
+										<value>413,329</value>
+									</regnode>
+								</regnode>
+							</regnode>
+							<attribute kind="LocType">
+								<value>Committed</value>
+							</attribute>
+						</model>
+						<model id="id-0065-0000002c" kind="Loc" role="Loc" guid="{84ec55d8-5cc0-4fdc-88c2-10cd47c075a3}" relid="0x3" childrelidcntr="0x0">
+							<name>Loc</name>
+							<regnode name="PartRegs" status="undefined">
+								<value></value>
+								<regnode name="Aspect" status="undefined">
+									<value></value>
+									<regnode name="Position" isopaque="yes">
+										<value>693,119</value>
+									</regnode>
+								</regnode>
+							</regnode>
+							<attribute kind="LocType" status="meta">
+								<value>IsNull</value>
+							</attribute>
+						</model>
+						<connection id="id-0068-0000002a" kind="InINNER" role="InINNER" guid="{455ad2a7-d9af-4c26-97ae-092692fd1c9d}" relid="0x5">
+							<name>InINNER</name>
+							<regnode name="autorouterPref" isopaque="yes">
+								<value>Ew</value>
+							</regnode>
+							<attribute kind="EdgeG" status="meta">
+								<value>IsNull</value>
+							</attribute>
+							<attribute kind="EdgeS">
+								<value>sync1?</value>
+							</attribute>
+							<attribute kind="EdgeU" status="meta">
+								<value>IsNull</value>
+							</attribute>
+							<connpoint role="dst" target="id-0065-00000029"/>
+							<connpoint role="src" target="id-0065-0000002a"/>
+						</connection>
+						<connection id="id-0068-0000002b" kind="InINNER" role="InINNER" guid="{7fdd22c7-d473-4c60-8030-3389e34de595}" relid="0x6">
+							<name>InINNER</name>
+							<regnode name="autorouterPref" isopaque="yes">
+								<value>Nn</value>
+							</regnode>
+							<attribute kind="EdgeG">
+								<value>s[did-1][2]&lt;=0</value>
+							</attribute>
+							<attribute kind="EdgeS" status="meta">
+								<value>IsNull</value>
+							</attribute>
+							<attribute kind="EdgeU" status="meta">
+								<value>IsNull</value>
+							</attribute>
+							<connpoint role="src" target="id-0065-00000029"/>
+							<connpoint role="dst" target="id-0065-0000002a"/>
+						</connection>
+						<connection id="id-0068-0000002c" kind="InINNER" role="InINNER" guid="{1658a683-42c0-4f5e-b1d7-b3f288b8692b}" relid="0x7">
+							<name>InINNER</name>
+							<regnode name="autorouterPref" isopaque="yes">
+								<value>Ew</value>
+							</regnode>
+							<attribute kind="EdgeG" status="meta">
+								<value>IsNull</value>
+							</attribute>
+							<attribute kind="EdgeS">
+								<value>s[did-1][2]&gt;0</value>
+							</attribute>
+							<attribute kind="EdgeU">
+								<value>t:=0</value>
+							</attribute>
+							<connpoint role="src" target="id-0065-00000029"/>
+							<connpoint role="dst" target="id-0065-0000002c"/>
+						</connection>
+						<connection id="id-0068-0000002d" kind="InINNER" role="InINNER" guid="{ff944340-d7b8-4af4-9cc3-67f443b7fd54}" relid="0x9">
+							<name>InINNER</name>
+							<regnode name="autorouterPref" isopaque="yes">
+								<value>Ws</value>
+							</regnode>
+							<attribute kind="EdgeG" status="meta">
+								<value>IsNull</value>
+							</attribute>
+							<attribute kind="EdgeS">
+								<value>sync2!</value>
+							</attribute>
+							<attribute kind="EdgeU">
+								<value>s[did-1][2]:=0</value>
+							</attribute>
+							<connpoint role="dst" target="id-0065-0000002a"/>
+							<connpoint role="src" target="id-0065-0000002b"/>
+						</connection>
+						<connection id="id-0068-0000002e" kind="InINNER" role="InINNER" guid="{344a0466-0ecd-48c2-b16e-119c0809d140}" relid="0x8">
+							<name>InINNER</name>
+							<regnode name="autorouterPref" isopaque="yes">
+								<value>Se</value>
+							</regnode>
+							<attribute kind="EdgeG">
+								<value>t&gt;=wt[s[did-1][0]-1][s[did-1][1]]</value>
+							</attribute>
+							<attribute kind="EdgeS" status="meta">
+								<value>IsNull</value>
+							</attribute>
+							<attribute kind="EdgeU" status="meta">
+								<value>IsNull</value>
+							</attribute>
+							<connpoint role="dst" target="id-0065-0000002b"/>
+							<connpoint role="src" target="id-0065-0000002c"/>
+						</connection>
+					</model>
+				</model>
+				<atom id="id-0066-00000006" kind="RESpara" role="RESpara" guid="{7dfe79b2-b9d6-477b-9ff3-e617558755ee}" relid="0x1">
+					<name>RESpara</name>
+					<regnode name="PartRegs" status="undefined">
+						<value></value>
+						<regnode name="Aspect" status="undefined">
+							<value></value>
+							<regnode name="Position" isopaque="yes">
+								<value>343,434</value>
+							</regnode>
+						</regnode>
+					</regnode>
+					<attribute kind="RESpara">
+						<value>const int did</value>
+					</attribute>
+				</atom>
+				<atom id="id-0066-00000007" kind="RESStatement" role="RESStatement" guid="{c20631f5-26b5-4cd1-9a07-8689f4415f3d}" relid="0x2">
+					<name>RESStatement</name>
+					<regnode name="PartRegs" status="undefined">
+						<value></value>
+						<regnode name="Aspect" status="undefined">
+							<value></value>
+							<regnode name="Position" isopaque="yes">
+								<value>196,441</value>
+							</regnode>
+						</regnode>
+					</regnode>
+					<attribute kind="FieldAttribute">
+						<value>clock t;</value>
+					</attribute>
+				</atom>
+				<connection id="id-0068-00000007" kind="PhysicalAccess" role="PhysicalAccess" guid="{c05445ad-fa69-4f9b-a343-77f8b6700efb}" relid="0xb">
+					<name>PhysicalAccess</name>
+					<regnode name="autorouterPref" isopaque="yes">
+						<value>Ew</value>
+					</regnode>
+					<connpoint role="src" target="id-0065-00000007"/>
+					<connpoint role="dst" target="id-0065-00000008"/>
+				</connection>
+				<connection id="id-0068-00000008" kind="PhysicalAccess" role="PhysicalAccess" guid="{30eb7ae5-abde-413e-8a6c-efec8bd387eb}" relid="0xc">
+					<name>PhysicalAccess</name>
+					<regnode name="autorouterPref" isopaque="yes">
+						<value>Ew</value>
+					</regnode>
+					<connpoint role="src" target="id-0065-00000008"/>
+					<connpoint role="dst" target="id-0065-00000009"/>
+				</connection>
+				<connection id="id-0068-00000009" kind="PhysicalAccess" role="PhysicalAccess" guid="{f0fd6659-cd39-4150-9fcf-2aa7b60d48f9}" relid="0xd">
+					<name>PhysicalAccess</name>
+					<regnode name="autorouterPref" isopaque="yes">
+						<value>Ew</value>
+					</regnode>
+					<connpoint role="src" target="id-0065-00000009"/>
+					<connpoint role="dst" target="id-0065-0000000a"/>
+				</connection>
+				<connection id="id-0068-0000000b" kind="PhysicalAccess" role="PhysicalAccess" guid="{1fdf97fd-2e61-4d35-9f0e-186e74655f3f}" relid="0xf">
+					<name>PhysicalAccess</name>
+					<regnode name="autorouterPref" isopaque="yes">
+						<value>We</value>
+					</regnode>
+					<connpoint role="src" target="id-0065-0000000c"/>
+					<connpoint role="dst" target="id-0065-0000000e"/>
+				</connection>
+				<connection id="id-0068-0000000c" kind="PhysicalAccess" role="PhysicalAccess" guid="{d66211b3-88df-4074-8d5f-a89dd21d753d}" relid="0x10">
+					<name>PhysicalAccess</name>
+					<regnode name="autorouterPref" isopaque="yes">
+						<value>We</value>
+					</regnode>
+					<connpoint role="dst" target="id-0065-0000000b"/>
+					<connpoint role="src" target="id-0065-0000000e"/>
+				</connection>
+				<connection id="id-0068-0000000d" kind="PhysicalAccess" role="PhysicalAccess" guid="{7494f546-6d2c-4fab-85bc-4595e7f3f33b}" relid="0x11">
+					<name>PhysicalAccess</name>
+					<regnode name="autorouterPref" isopaque="yes">
+						<value>We</value>
+					</regnode>
+					<connpoint role="src" target="id-0065-0000000b"/>
+					<connpoint role="dst" target="id-0065-0000000d"/>
+				</connection>
+				<connection id="id-0068-0000000f" kind="PhysicalAccess" role="PhysicalAccess" guid="{ef229c6e-e67d-441d-83d3-e383f66ebf3d}" relid="0x13">
+					<name>PhysicalAccess</name>
+					<regnode name="autorouterPref" isopaque="yes">
+						<value>s</value>
+					</regnode>
+					<connpoint role="dst" target="id-0065-00000007"/>
+					<connpoint role="src" target="id-0065-0000000d"/>
+				</connection>
+				<connection id="id-0068-00000010" kind="PhysicalAccess" role="PhysicalAccess" guid="{ac1f4d62-01a7-46fb-9e37-b03421db2c7c}" relid="0x14">
+					<name>PhysicalAccess</name>
+					<regnode name="autorouterPref" isopaque="yes">
+						<value>Sn</value>
+					</regnode>
+					<connpoint role="src" target="id-0065-0000000a"/>
+					<connpoint role="dst" target="id-0065-0000000c"/>
+				</connection>
+			</model>
+			<model id="id-0065-00000004" kind="PROC" role="PROC" guid="{1ae9af62-8233-467a-8142-99053922c839}" relid="0x4" childrelidcntr="0x7">
+				<name>PROC</name>
+				<regnode name="PartRegs" status="undefined">
+					<value></value>
+					<regnode name="Aspect" status="undefined">
+						<value></value>
+						<regnode name="Position" isopaque="yes">
+							<value>385,301</value>
+						</regnode>
+					</regnode>
+				</regnode>
+				<model id="id-0065-0000004f" kind="Model" role="Model" guid="{a63afd8e-ea13-4a3a-8f72-33c34d935eb6}" relid="0x7" childrelidcntr="0x1">
+					<name>Model</name>
+					<regnode name="PartRegs" status="undefined">
+						<value></value>
+						<regnode name="Aspect" status="undefined">
+							<value></value>
+							<regnode name="Position" isopaque="yes">
+								<value>308,133</value>
+							</regnode>
+						</regnode>
+					</regnode>
+					<model id="id-0065-00000050" kind="Inner" role="Inner" guid="{c177191b-cf0b-4a44-b61e-24a85136ab3c}" relid="0x1" childrelidcntr="0x3">
+						<name>Inner</name>
+						<regnode name="PartRegs" status="undefined">
+							<value></value>
+							<regnode name="Aspect" status="undefined">
+								<value></value>
+								<regnode name="Position" isopaque="yes">
+									<value>322,196</value>
+								</regnode>
+							</regnode>
+						</regnode>
+						<model id="id-0065-00000051" kind="Loc" role="Loc" guid="{8e737baa-cd80-43f0-8d63-92acce721f47}" relid="0x1" childrelidcntr="0x0">
+							<name>Loc</name>
+							<regnode name="PartRegs" status="undefined">
+								<value></value>
+								<regnode name="Aspect" status="undefined">
+									<value></value>
+									<regnode name="Position" isopaque="yes">
+										<value>301,210</value>
+									</regnode>
+								</regnode>
+							</regnode>
+							<attribute kind="LocType">
+								<value>Init</value>
+							</attribute>
+						</model>
+						<connection id="id-0068-00000054" kind="InINNER" role="InINNER" guid="{80a1e2b7-1a03-4bd4-91c4-8f77c265269c}" relid="0x2">
+							<name>InINNER</name>
+							<regnode name="autorouterPref" isopaque="yes">
+								<value>Ne</value>
+							</regnode>
+							<regnode name="dstStyle" isopaque="yes">
+								<value>arrow</value>
+							</regnode>
+							<attribute kind="EdgeG" status="meta">
+								<value>IsNull</value>
+							</attribute>
+							<attribute kind="EdgeS">
+								<value>sync2?</value>
+							</attribute>
+							<attribute kind="EdgeU">
+								<value>current:=ws[pid-1]</value>
+							</attribute>
+							<connpoint role="dst" target="id-0065-00000051"/>
+							<connpoint role="src" target="id-0065-00000051"/>
+						</connection>
+					</model>
+				</model>
+				<atom id="id-0066-00000004" kind="PROCpara" role="PROCpara" guid="{4f4df256-049e-4241-8971-7148b264a311}" relid="0x1">
+					<name>PROCpara</name>
+					<regnode name="PartRegs" status="undefined">
+						<value></value>
+						<regnode name="Aspect" status="undefined">
+							<value></value>
+							<regnode name="Position" isopaque="yes">
+								<value>329,301</value>
+							</regnode>
+						</regnode>
+					</regnode>
+					<attribute kind="PROCpara">
+						<value>const int pid</value>
+					</attribute>
+				</atom>
+				<atom id="id-0066-00000005" kind="PROCStatement" role="PROCStatement" guid="{86ff2a25-72bc-4317-936e-e41e9d7edb5c}" relid="0x2">
+					<name>PROCStatement</name>
+					<regnode name="PartRegs" status="undefined">
+						<value></value>
+						<regnode name="Aspect" status="undefined">
+							<value></value>
+							<regnode name="Position" isopaque="yes">
+								<value>175,294</value>
+							</regnode>
+						</regnode>
+					</regnode>
+					<attribute kind="PROCStatement">
+						<value>int current=0;</value>
+					</attribute>
+				</atom>
+			</model>
+			<atom id="id-0066-00000002" kind="GlobalStatement" role="GlobalStatement" guid="{23cc6d50-9c57-4642-aaca-b617bdd93165}" relid="0x5">
+				<name>GlobalStatement</name>
+				<regnode name="PartRegs" status="undefined">
+					<value></value>
+					<regnode name="Aspect" status="undefined">
+						<value></value>
+						<regnode name="Position" isopaque="yes">
+							<value>119,119</value>
+						</regnode>
+					</regnode>
+				</regnode>
+				<attribute kind="StatementForG">
+					<value>broadcast chan sync1,sync2,sync3;
+const int Dnum=8;
+const int Pnum=3;
+const int max=6;
+int productnum=3;
+clock T;
+
+int wt[Pnum][6]={{2,4,10,10,4,4},{2,4,3,10,4,4},{2,4,5,10,4,4}};//work_time
+int wm[Pnum][6]={{1,2,3,6,7,8},{1,2,4,6,7,8},{1,2,5,6,7,8}};//work_machine
+int s[Dnum][3]={{0,0,0},{0,0,0},{0,0,0},{0,0,0},{0,0,0},{0,0,0},{0,0,0},{0,0,0}};//schedule
+int ws[Pnum]={0,0,0};//global step of product</value>
+				</attribute>
+			</atom>
+			<atom id="id-0066-00000003" kind="ModelStatement" role="ModelStatement" guid="{4ecd3920-40cb-4470-b82b-22b797d40695}" relid="0x6">
+				<name>ModelStatement</name>
+				<regnode name="PartRegs" status="undefined">
+					<value></value>
+					<regnode name="Aspect" status="undefined">
+						<value></value>
+						<regnode name="Position" isopaque="yes">
+							<value>119,238</value>
+						</regnode>
+					</regnode>
+				</regnode>
+				<attribute kind="StatementForM">
+					<value>product1:=PROD(1);
+product2:=PROD(2);
+product3:=PROD(3);
+device1:=RES(1);device2:=RES(2);device3:=RES(3);
+device4:=RES(4);device5:=RES(5);device6:=RES(6);
+device7:=RES(7);device8:=RES(8);
+schedule1:=PROC(1);
+schedule2:=PROC(2);
+schedule3:=PROC(3);
+
+system product1,product2,product3,
+        device1,device2,device3,
+        device4,device5,device6,
+        device7,device8,
+        schedule1,schedule2,schedule3;
+gantt {
+  device1: device1.dwork -&gt; 0;
+   device2: device2.dwork -&gt; 1;
+    device3: device3.dwork -&gt; 2;
+     device4: device4.dwork -&gt; 3;
+      device5: device5.dwork -&gt; 4;
+       device6: device6.dwork -&gt; 5;
+        device7: device7.dwork -&gt; 6;
+         device8: device8.dwork -&gt; 9;
+          
+}</value>
+				</attribute>
+			</atom>
+			<connection id="id-0068-00000001" kind="EKind" role="EKind" guid="{9d5364fd-436b-4cdd-b889-79560dd4890d}" relid="0x7">
+				<name>EKind</name>
+				<regnode name="autorouterPref" isopaque="yes">
+					<value>Sw</value>
+				</regnode>
+				<regnode name="dstStyle" isopaque="yes">
+					<value>arrow</value>
+				</regnode>
+				<regnode name="lineType" isopaque="yes">
+					<value>dash</value>
+				</regnode>
+				<connpoint role="src" target="id-0065-00000002"/>
+				<connpoint role="dst" target="id-0065-00000004"/>
+			</connection>
+			<connection id="id-0068-00000002" kind="DKind" role="DKind" guid="{0601e13e-81ab-405c-a144-3dbfd1789cc7}" relid="0x8">
+				<name>DKind</name>
+				<regnode name="autorouterPref" isopaque="yes">
+					<value>Ew</value>
+				</regnode>
+				<regnode name="dstStyle" isopaque="yes">
+					<value>arrow</value>
+				</regnode>
+				<regnode name="lineType" isopaque="yes">
+					<value>dash</value>
+				</regnode>
+				<connpoint role="src" target="id-0065-00000002"/>
+				<connpoint role="dst" target="id-0065-00000003"/>
+			</connection>
+			<connection id="id-0068-00000004" kind="DataKind" role="DataKind" guid="{a9163e9f-a790-4541-bf5d-da370b5b3cf2}" relid="0x9">
+				<name>DataKind</name>
+				<regnode name="autorouterPref" isopaque="yes">
+					<value>Se</value>
+				</regnode>
+				<regnode name="dstStyle" isopaque="yes">
+					<value>arrow</value>
+				</regnode>
+				<regnode name="lineType" isopaque="yes">
+					<value>dash</value>
+				</regnode>
+				<connpoint role="src" target="id-0065-00000003"/>
+				<connpoint role="dst" target="id-0065-00000004"/>
+			</connection>
+		</model>
+	</folder>
+</project>
