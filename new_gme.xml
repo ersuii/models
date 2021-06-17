@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE nta PUBLIC '-//Uppaal Team//DTD Flat System 1.1//EN' 'http://www.it.uu.se/research/group/darts/uppaal/flat-1_2.dtd'>
+<nta>
+	<declaration>// Place global declarations here.
+broadcast chan sync1,sync2,sync3;
+const int Dnum=8;
+const int Pnum=3;
+const int max=6;
+int productnum=3;
+clock T;
+
+int wt[Pnum][6]={{2,4,10,10,4,4},{2,4,3,10,4,4},{2,4,5,10,4,4}};//work_time
+int wm[Pnum][6]={{1,2,3,6,7,8},{1,2,4,6,7,8},{1,2,5,6,7,8}};//work_machine
+int s[Dnum][3]={{0,0,0},{0,0,0},{0,0,0},{0,0,0},{0,0,0},{0,0,0},{0,0,0},{0,0,0}};//schedule
+int ws[Pnum]={0,0,0};//global step of product
+
+//the arr of product's requirement should be placed here, for the fucking c++ grammer.</declaration>
+	<template>
+		<name x="5" y="5">RES</name>
+		<parameter>const int did</parameter>
+		<declaration>// Place local declarations here.
+clock t;
+</declaration>
+		<location id="id0" x="42" y="42">
+			<name x="32" y="8">dwait</name>
+		</location>
+		<location id="id1" x="340" y="42">
+			<name x="330" y="8">dwork</name>
+		</location>
+		<location id="id2" x="204" y="161">
+			<name x="187" y="178">dfin</name>
+			<committed/>
+		</location>
+		<location id="id3" x="195" y="42">
+			<committed/>
+		</location>
+		<init ref="id0"/>
+		<transition>
+			<source ref="id3"/>
+			<target ref="id0"/>
+			<label kind="guard" x="85" y="-34">s[did-1][2]&lt;=0</label>
+			<nail x="127" y="-25"/>
+		</transition>
+		<transition>
+			<source ref="id3"/>
+			<target ref="id1"/>
+			<label kind="guard" x="213" y="8">s[did-1][2]&gt;0</label>
+			<label kind="assignment" x="213" y="42">t:=0</label>
+		</transition>
+		<transition>
+			<source ref="id0"/>
+			<target ref="id3"/>
+			<label kind="synchronisation" x="93" y="17">sync1?</label>
+		</transition>
+		<transition>
+			<source ref="id2"/>
+			<target ref="id0"/>
+			<label kind="synchronisation" x="60" y="114">sync2!</label>
+			<label kind="assignment" x="60" y="131">s[did-1][2]:=0</label>
+		</transition>
+		<transition>
+			<source ref="id1"/>
+			<target ref="id2"/>
+			<label kind="guard" x="178" y="76">t&gt;=wt[s[did-1][0]-1][s[did-1][1]]</label>
+		</transition>
+	</template>
+	<template>
+		<name>PROD</name>
+		<parameter>const int pcid</parameter>
+		<declaration>int step=0;</declaration>
+		<location id="id4" x="-867" y="-144">
+			<name x="-877" y="-178">pwait</name>
+		</location>
+		<location id="id5" x="-680" y="-144">
+			<name x="-690" y="-178">apply</name>
+		</location>
+		<location id="id6" x="-680" y="85">
+			<name x="-690" y="51">do</name>
+		</location>
+		<location id="id7" x="-867" y="-76">
+			<name x="-909" y="-84">pfin</name>
+		</location>
+		<location id="id8" x="-1011" y="85">
+			<name x="-1021" y="51">done</name>
+		</location>
+		<location id="id9" x="-790" y="85">
+			<committed/>
+		</location>
+		<init ref="id4"/>
+		<transition>
+			<source ref="id9"/>
+			<target ref="id6"/>
+			<label kind="guard" x="-807" y="0">s[wm[pcid-1][step]-1][2]&gt;0&amp;&amp;
+s[wm[pcid-1][step]-1][0]&gt;0</label>
+			<nail x="-790" y="42"/>
+			<nail x="-697" y="42"/>
+		</transition>
+		<transition>
+			<source ref="id9"/>
+			<target ref="id8"/>
+			<label kind="guard" x="-953" y="-26">s[wm[pcid-1][step]-1][2]&lt;1&amp;&amp;
+s[wm[pcid-1][step]-1][0]&gt;0</label>
+			<label kind="assignment" x="-960" y="25">s[wm[pcid-1][step]-1][0]:=0,
+s[wm[pcid-1][step]-1][1]:=0</label>
+			<nail x="-807" y="85"/>
+		</transition>
+		<transition>
+			<source ref="id6"/>
+			<target ref="id9"/>
+			<label kind="synchronisation" x="-765" y="85">sync2?</label>
+		</transition>
+		<transition>
+			<source ref="id4"/>
+			<target ref="id4"/>
+			<label kind="guard" x="-841" y="-136">step&lt;6&amp;&amp;
+wt[pcid-1][step]&lt;=0</label>
+			<label kind="assignment" x="-833" y="-93">step++</label>
+			<nail x="-790" y="-33"/>
+			<nail x="-756" y="-93"/>
+		</transition>
+		<transition>
+			<source ref="id8"/>
+			<target ref="id4"/>
+			<label kind="assignment" x="-993" y="-29">step++</label>
+		</transition>
+		<transition>
+			<source ref="id7"/>
+			<target ref="id7"/>
+			<nail x="-909" y="-25"/>
+			<nail x="-841" y="-25"/>
+		</transition>
+		<transition>
+			<source ref="id4"/>
+			<target ref="id7"/>
+			<label kind="guard" x="-892" y="-119">step&gt;=6</label>
+		</transition>
+		<transition>
+			<source ref="id5"/>
+			<target ref="id6"/>
+			<label kind="guard" x="-756" y="-102">s[wm[pcid-1][step]-1][2]&lt;=0</label>
+			<label kind="synchronisation" x="-756" y="-85">sync1!</label>
+			<label kind="assignment" x="-756" y="-68">s[wm[pcid-1][step]-1][0]:=pcid,
+s[wm[pcid-1][step]-1][1]:=step,
+s[wm[pcid-1][step]-1][2]:=1,
+ws[pcid-1]:=step</label>
+		</transition>
+		<transition>
+			<source ref="id4"/>
+			<target ref="id5"/>
+			<label kind="guard" x="-824" y="-187">step&lt;6&amp;&amp;
+wt[pcid-1][step]&gt;0</label>
+			<nail x="-731" y="-144"/>
+		</transition>
+	</template>
+	<template>
+		<name>PROC</name>
+		<parameter>const int pid</parameter>
+		<declaration>int current=0;
+//int judge=0;
+//int [0,1] func(){
+    //int flag=0;
+    //for(i:int [0,(max-1)]){
+        //wt[pid-1][i]=worktime[i];
+        //wm[pid-1][i]=workmachine[i];
+        //flag++;
+   // }
+    
+   // if(flag==4){
+      //  flag=0;
+      //  return 1;
+    //}
+   // else{
+      //  flag=0;   
+    //return 0;
+//
+//}
+</declaration>
+		<location id="id10" x="-1615" y="-722">
+		</location>
+		<init ref="id10"/>
+		<transition>
+			<source ref="id10"/>
+			<target ref="id10"/>
+			<label kind="synchronisation" x="-1665" y="-773">sync2?</label>
+			<label kind="assignment" x="-1665" y="-756">current:=ws[pid-1]</label>
+			<nail x="-1683" y="-790"/>
+			<nail x="-1555" y="-790"/>
+		</transition>
+	</template>
+	<system>// Place template instantiations here.
+// List one or more processes to be composed into a system.
+
+product1:=PROD(1);
+product2:=PROD(2);
+product3:=PROD(3);
+device1:=RES(1);device2:=RES(2);device3:=RES(3);
+device4:=RES(4);device5:=RES(5);device6:=RES(6);
+device7:=RES(7);device8:=RES(8);
+schedule1:=PROC(1);
+schedule2:=PROC(2);
+schedule3:=PROC(3);
+
+system product1,product2,product3,
+        device1,device2,device3,
+        device4,device5,device6,
+        device7,device8,
+        schedule1,schedule2,schedule3;
+gantt {
+  device1: device1.dwork -&gt; 0;
+   device2: device2.dwork -&gt; 1;
+    device3: device3.dwork -&gt; 2;
+     device4: device4.dwork -&gt; 3;
+      device5: device5.dwork -&gt; 4;
+       device6: device6.dwork -&gt; 5;
+        device7: device7.dwork -&gt; 6;
+         device8: device8.dwork -&gt; 9;
+          
+}</system>
+	<queries>
+		<query>
+			<formula>E&lt;&gt; product1.pfin and product2.pfin and product3.pfin</formula>
+			<comment></comment>
+		</query>
+		<query>
+			<formula>A[] not deadlock</formula>
+			<comment></comment>
+		</query>
+	</queries>
+</nta>
